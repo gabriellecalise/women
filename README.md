@@ -254,3 +254,18 @@ Like this project? Share it!
 (Buttons for Facebook, Twitter and LinkedIn sharing)
 
 Learn about another topic (home button)
+
+
+
+
+Week 2
+I started using the Foodster Bootstrap. It was very confusing and awful. I could swap out the photos and add my own text, but once I started changing the built in features such as the Nav bar and other features that I didn’t really want, the whole site started to behave weird. I think it is because the page relies on other parts – for the arrows that go to the next section to work when you click on them,  the network of links must be in tact. Since I can’t delete things without messing up the basic structure of the site, and I still want to make my site feel very minimal, I am going to try a different theme.
+
+I decided to take a break and just code the “Let’s Talk Money” tab. I used the demo you provided for the .slideToggle() jquery function so that I could make my True/false quiz interactive. I also experimented with the .slideUp() and .slideDown() functions for transitioning to the next questions. I used the JQuery website for this https://api.jquery.com/slideUp/
+I used this tutorial to figure out the slideDown() function. https://www.youtube.com/watch?v=ZGPZj7L-kOY.
+
+I ended up using the fiddle about full-length slides as a guide for my interactive quiz (https://jsfiddle.net/macloo/bmLf12nd/).  It’s not perfect – I couldn’t figure out how to get the function to work if something other than the body was being clicked on – but next week I will figure it out.
+
+Next week I will also finish the other two sections and add attribution to all of the Creative Commons photos that I used. I will also polish up the CSS and make it responsive for mobile. I found some nice stock images that are free to use on stocksnap.io, and I plan on incorporating them into my website as well so that the three sections are more visually appealing.
+
+Finally, I will add an exit button so that the user has an opportunity to return to the home page after they finish learning about each topic.

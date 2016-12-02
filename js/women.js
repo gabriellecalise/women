@@ -41,6 +41,23 @@ $(document).ready(function() {
   });
 
 
+  $('.all-secs').css( {'height': (  $(window).height() )  } );
+  $('.all-secs').hide();
+  $('#sec1').show();
+
+  $('body').on('click', '.all-secs', function() {
+      // slide this section out of sight
+      $(this).slideToggle();
+
+      // show the next section - unless we are on the last section
+      if ( $(this).attr("id") != "sec8" ) {
+      	$(this).next().slideToggle();
+      } else {
+         $('#sec1').slideToggle();
+      }
+  });
+
+
 
 /* this is how I hese will SIMULTANEOUSLY .SLIDEUP() the old question AND .SLIDEDOWN() the new question
 

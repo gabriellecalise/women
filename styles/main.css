@@ -42,6 +42,24 @@ section {
 }
 
 
+#space  {
+  background-image: url('https://c7.staticflickr.com/8/7295/27607595222_d116c4cf21_k.jpg');
+  background-size:100%;
+  color: #000;
+}
+
+#space > h1 {
+ background: #efc8d1;
+ padding:10px;
+ width:20%
+}
+
+/*#supremeCourt {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a1/O%27Connor%2C_Sotomayor%2C_Ginsburg%2C_and_Kagan.jpg');
+  background-size:100%;
+}*/
+
+
 
 img{
   /*width: 100%;*/
@@ -59,8 +77,13 @@ img{
   font-size: 120%;
 }
 
-/*
-#space  {
-  background-image: image('images/sallyRide.jpg');
+
+.btn {
+  display: inline-block;
+  text-decoration:none;
+  font-family: Helvetiva, sans-serif;
+  padding:5px 20px;
+  background-color: #fff;
+  font-size: 120%;
+  cursor: pointer;
 }
-*/
