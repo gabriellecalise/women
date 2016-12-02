@@ -2,6 +2,7 @@ $(document).ready(function() {
 
   // the following will HIDE your questions
 
+
   $('.hide').hide();
   $('#trueanswer1').hide();
   $('#falseanswer1').hide();
@@ -41,8 +42,7 @@ $(document).ready(function() {
 
 
 
-  //these will SIMULTANEOUSLY .SLIDEUP() the old question AND .SLIDEDOWN() the new question
-    //question1
+/* this is how I hese will SIMULTANEOUSLY .SLIDEUP() the old question AND .SLIDEDOWN() the new question
 
 
     $('.child').click(function(){
@@ -59,7 +59,7 @@ $(document).ready(function() {
       $("#question2").slideDown(function(){
     });
     });
-
+ */
 /*
     $('.all-secs').css( {'height': (  $(window).height() )  } );
 
