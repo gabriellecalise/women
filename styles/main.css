@@ -1,0 +1,66 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  margin: auto;
+  font-family: 'Merriweather Sans', Verdana, sans-serif;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 250%;
+}
+
+section {
+  height: 600px;
+  padding: 20px;
+}
+
+.pink {
+  background-color: #ffefef;
+}
+
+
+
+#vote {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/cd/Suffragists_Parade_Down_Fifth_Avenue%2C_1917.JPG');
+  color: #efc8d1;
+  background-size:100%;
+
+}
+
+ #vote > h1 {
+  background: #000;
+  padding:10px;
+  width:30%
+}
+
+
+
+img{
+  /*width: 100%;*/
+  margin:auto;
+  padding:0;
+  max-height: 500px;
+}
+
+.issue {
+  display: inline-block;
+  text-decoration:none;
+  font-family: Helvetiva, sans-serif;
+  padding:5px 20px;
+  background-color: #fff;
+  font-size: 120%;
+}
+
+/*
+#space  {
+  background-image: image('images/sallyRide.jpg');
+}
+*/

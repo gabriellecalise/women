@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Economics slide down</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"> </script>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+
+</head>
+<body>
+
+<div id="intro">
+  <section class="pink">
+<h1> Women <br>have come so far <br>in America</h1>
+</section>
+
+<!--<section>
+black and white voting picture
+/
+</section>-->
+
+<section class="box" id="vote">
+<h1> From getting <br> the right to vote</h1>
+</section>
+
+<section>
+<h1> To gaining <br> more control over <br> our bodies and careers </h1>(pic of successful career woman - I haven't picked one yet)
+</section>
+
+<section class="panel1">
+<h1> We've gone <br>more places, <br> from higher office</h1> (pic of Supreme Court Justices)
+</section>
+
+<section class="pink" id="space">
+<h1> To beyond </h1>
+</section>
+
+<section class="panel1">
+  <h1> But <br>there is <br>still so <br> much left to do</h1>
+  <h2> So let's get started </h2>
+</section>
+
+<section class="pink">
+  <h1>What issue <br> do you want <br> to learn about? </h1>
+    <button type="button" class="issue" id="money">Let's talk money</button>
+    <button type="button" class="issue" id="violence">Violence against women</button>
+    <button type="button" class="issue" id="reproductive">Reproductive rights</button>
+</section>
+
+</div>
+
+
+
+
+
+
+<section id="issuemoney">
+    <img src="images/workingwoman.jpg" alt="working woman">
+  <h1>Let's talk money</h1>
+  <h2>Economic issues that women face today</h2>
+
+
+<div id="set1" class="parent">
+  <div id="hide1">
+  <div class="question" id="question1">
+    <h3 class="section-subsubheading"> Quiz time <br> The wage gap is a myth -- true or false? </h3>
+
+        <button type="button" class="btn" id="true1">True</button>
+        <button type="button" class="btn" id="false1" >False</button>
+
+  <div class="answer" id="trueanswer1">
+    <h4>Answer: False </h4>
+      <p> The bad news: According to the US Department of Commerce, the average woman made $0.79 for every dollar a man earned in 2014. </p>
+
+      <p>The good news: the gap is smaller for young women, who earn 93% of the average hourly wage of men the same age, <a href="http://www.pewsocialtrends.org/2013/12/11/on-pay-gap-millennial-women-near-parity-for-now/">according to the Pew Research Center.</a></p>
+
+    <div id="nextQuestionTrue1">
+    <div class="child">
+      <button type="button" class="btn"> Next question</button>
+    </div>
+   </div>
+ </div>
+  </div>
+
+  <div class="answer" id="falseanswer1">
+    <h4>Answer: False </h4>
+      <p> The bad news: According to the US Department of Commerce, the average woman made $0.79 for every dollar a man earned in 2014. </p>
+
+      <p>The good news: the gap is smaller for young women, who earn 93% of the average hourly wage of men the same age, <a href="http://www.pewsocialtrends.org/2013/12/11/on-pay-gap-millennial-women-near-parity-for-now/">according to the Pew Research Center.</a></p>
+
+      <div id="nextQuestionFalse1">
+      <div class="child">
+        <button type="button" class="btn">Next question</button>
+      </div>
+     </div>
+    </div>
+   </div>
+ </div>
+
+
+
+
+  <div id="set2">
+    <div class="question" id="question2">
+      <h3>What do you think happens as women age?</h3>
+        <button type="button" class="btn btn-success" id="getsBetter">It gets better</button>
+
+        <button type="button" class="btn btn-danger" id="getsWorse">It gets worse</button>
+      </div>
+  </div>
+
+<!--
+<div class="answer" id="answer2">
+    <h4> Answer: It actually gets worse.</h4>
+      <p> Even if ladies make the same amount as their male counterparts early in their careers, there's something called the <strong>motherhood penalty</strong> that can trip them up later in life. </p>
+
+      <p>University of Massachusetts sociologist Michelle Budig found that on average, <a href= "http://www.thirdway.org/report/the-fatherhood-bonus-and-the-motherhood-penalty-parenthood-and-the-gender-gap-in-pay"> men make 6% more when they had children, and women made 4% less for EACH child that they had.</a>
+      </p>
+
+    <button type="button" class="btn btn-outline-primary">Next question</button>
+  </div>
+
+
+  <div class="question" id="question3">
+    <h3>True or false – the United States is the only industrialized country that doesn’t have paid maternity or family leave.</h3>
+
+    <button type="button" class="btn btn-success">True</button>
+
+    <button type="button" class="btn btn-danger">False</button>
+  </div>
+
+
+
+<div class="answer" id="answer3">
+    <h4> Answer: True</h4>
+        <p> There is no guaranteed family leave, unless your employer grants it or you live in California, Rhode Island or New Jersey, which offer state-mandated paid leave. According to the Bureau of Labor Statistics, <a href="http://www.politifact.com/truth-o-meter/statements/2016/jul/25/kirsten-gillibrand/yes-us-only-industrialized-nation-without-paid-fam/"> only 13 percent of employers offer paid maternity leave</a>. </p>
+
+        <p>This is a problem because caregiving typically falls on women. However, <a href="  http://www.theatlantic.com/business/archive/2016/03/no-paid-maternity-leave/470889/">40 percent of women are breadwinners for their families, and 70 percent of mothers work outside the home.</a> </p>
+
+        <button type="button" class="btn btn-outline-primary">Next question</button>
+</div>
+
+<div class="question" id="question4">
+   <h3> Ok, so why is the wage gap happening? </h3>
+   <ul>
+    <li>Some common reasons for the wage gap are occupational segregation, differences in the number of hours worked and educational attainment.</li>
+    <li>Experts also attribute <a href="http://www.pewsocialtrends.org/2013/12/11/on-pay-gap-millennial-women-near-parity-for-now/"> 20-40% of the wage gap to other reasons </a> that are much harder to quantify, including gender stereotypes, male-dominated career networks and the fact that women are less likely to negotiate for raises and promotions. </li>
+    <li> Finally, some of the gap can be explained by gender descrimination. Women are <a href="http://www.pewresearch.org/fact-tank/2015/04/14/on-equal-pay-day-everything-you-need-to-know-about-the-gender-pay-gap/"> twice as likely </a> to say that they felt descriminated in the workplace. </li>
+  </ul>
+
+   <button type="button" class="btn btn-outline-primary">So now what?</button>
+ </div>
+
+
+
+
+ <div class="question" id="question5">
+
+  <h3>It is estimated that the Gender Gap will take <a  href="http://www.nbcnews.com/business/economy/gender-pay-gap-will-be-erased-it-will-take-118-n466631 "> 118 years to close worldwide.</a> So what can you do to help?</h3>
+
+  <h4> Support resources that teach women how to negotiate.</h4>
+    <ul>
+      <li>The <a href ="http://www.aauw.org/"> American Association of University Women  </a>hosts leadership conferences and negotiation seminars. To find a branch near you or to learn how you can donate, <a href="http://www.aauw.org/what-we-do/salary-negotiation-workshops/"> click here. </a> </li>
+    </ul>
+
+    <h4> Tell Congress to pass the Paycheck Fairness Act. </h4>
+      <ul>
+        <li>This bill aims to strengthen the Equal Pay Act by empowering women to negotiate for equal pay, creating incentives for employers to follow the law, and increasing federal outreach. </li>
+        <li> You can find your elected official and send them an email in just a few minutes by <a href="http://salsa4.salsalabs.com/o/50796/p/dia/action3/common/public/?action_KEY=14710&killorg=True"> clicking here.</a> </li>
+        </ul>
+
+  <h4> Support campaigns for paid family leave </h4>
+    <ul>
+      <li> Support campaigns for paid family leave	http://www.huffingtonpost.com/2015/04/14/things-we-need-to-do-to-close-wage-gap_n_7056322.html
+      -	http://www.theatlantic.com/business/archive/2016/03/equal-pay/472407/ </li>
+    </ul>
+</div>
+
+-->
+
+
+<footer>
+  <p>To return to the menu, click here </p>
+</footer>
+
+</section>
+
+
+<!--
+<h1>Stopping Violence Against Women</h1>
+<h2>The facts, the stats, and how you can help</h2>
+
+<h3>1 in 5 women are sexually assaulted during their college years, according to the National Coalition Against Domestic Violence.</h3>
+
+<h4> In about <a href="http://www.bjs.gov/content/pub/pdf/rsavcaf9513.pdf"> 80% of rape and sexual assault cases for people ages 18-24</a> the offender was someone that the victim knew.</h4>
+
+<p> (insert pie chart that I made https://jsfiddle.net/gabriellecalise/v4s33p6t/)</p>
+
+
+
+<p> 26% of student victims who did not report to police believed the incident
+was a personal matter, and 1 in 5 stated a fear of reprisal. </p>
+
+
+Statistics from "Rape and violence against college aged females" – I’m using this document because it specifically focuses on college-aged women and that’s definitely the age group that I’m targeting with this project
+o	http://www.bjs.gov/content/pub/pdf/rsavcaf9513.pdf
+
+-->
+
+
+    <!--scripts-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/women.js"></script>
+
+</body>
+</html>
