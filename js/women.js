@@ -1,36 +1,105 @@
 $(document).ready(function() {
 
+  $('.all-secs').css( {'height': (  $(window).height() )  } );
+//put a class on all intro panels and add the same line but with that class. DO NOT EVER PuT ALL SECS ON THE INTRO
+
+  // hide all the divs
+  $('.all-secs').hide();
+
+
+  var mtop = $('#mtop');
+  var vtop = $('#vtop');
+  var rtop = $('#rtop');
+
+
+  // this function will work for an infinite number of buttons and divs - if the classes and IDs are set up correctly in HTML
+  $('.topbut').click(function() {
+   // hide any open div
+    $('#intro').slideUp();
+    // get value of data attribute from the thing that was clicked
+    var slide = $(this).data('slide');
+    $(slide).slideDown();
+  });
+
+  $('.otherbut').click(function() {
+   // hide any open div
+    $('.all-secs').slideUp();
+    // get value of data attribute from the thing that was clicked
+    var slide = $(this).data('slide');
+    $(slide).slideDown();
+  });
+
+
+
+//accordion style
+// start with all boxes hidden
+$('.abusebox').hide();
+
+// make each gray bar open a certain box
+$('#physical').on('click', function() {
+$('#physicalsigns').slideToggle('fast');
+});
+$('#emotional').on('click', function() {
+$('#emotionalsigns').slideToggle('fast');
+});
+$('#sexual').on('click', function() {
+$('#sexualsigns').slideToggle('fast');
+});
+$('#financial').on('click', function() {
+$('#financialsigns').slideToggle('fast');
+});
+$('#digital').on('click', function() {
+$('#digitalsigns').slideToggle('fast');
+});
+
+/*Domestic violence abuse type slidetoggle
+   $('#physicalsigns').hide();
+   $('#physical').click(function() {
+   $('#physicalsigns').slideToggle();
+   });
+
+   $('#emotionalsigns').hide();
+   $('#emotional').click(function() {
+   $('#emotionalsigns').slideToggle();
+   });
+
+   $('#sexualsigns').hide();
+   $('#sexual').click(function() {
+   $('#sexualsigns').slideToggle();
+   });
+
+   $('#financialsigns').hide();
+   $('#financial').click(function() {
+   $('#financialsigns').slideToggle();
+   });
+
+   $('#digitalsigns').hide();
+   $('#digital').click(function() {
+   $('#digitalsigns').slideToggle();
+   });
+*/
+
+
+
+
   // the following will HIDE your questions
 
-
+  /*
   $('.hide').hide();
   $('#trueanswer1').hide();
   $('#falseanswer1').hide();
   $('#question2').hide();
   $('#answer2').hide();
   $('#issuemoney').hide();
+  */
 
 
   //give each thing you want to hide a class and then hide everything with that class
 
 
 
-  $( "#money" ).click(function() {
-    $( "#issuemoney" ).show(function() {
-    });
-  });
 
-    $( "#money" ).click(function() {
-      $('#intro').hide(function(){
-      });
-    });
-
-//TO HIDE A POPUP$('.__').click(function(){
-  //});
-
-
-
-//True/False questions
+/* True/False questions
 
   $('#true1').click(function() {
     $('#trueanswer1').slideToggle();
@@ -39,8 +108,14 @@ $(document).ready(function() {
   $('#false1').click(function() {
     $('#falseanswer1').slideToggle();
   });
+*/
 
 
+
+
+
+
+/*
   $('.all-secs').css( {'height': (  $(window).height() )  } );
   $('.all-secs').hide();
   $('#sec1').show();
@@ -50,12 +125,23 @@ $(document).ready(function() {
       $(this).slideToggle();
 
       // show the next section - unless we are on the last section
-      if ( $(this).attr("id") != "sec8" ) {
+      if ( $(this).attr("id") != "sec9" ) {
       	$(this).next().slideToggle();
       } else {
          $('#sec1').slideToggle();
       }
   });
+
+  */
+
+
+
+
+
+
+
+
+
 
 
 

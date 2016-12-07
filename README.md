@@ -118,8 +118,7 @@ New slide: Domestic Violence By the Numbers
 - On a typical day, domestic violence hotlines nationwide receive approximately 20,800  calls
  -- According to a fact sheet by the National Coalition Against Domestic Violence in the United States.
 https://ncadv.org/files/National%20Statistics%20Domestic%20Violence%20NCADV.pdf
-- Domestic violence is most prevalent from ages 18-24. http://www.bjs.gov/content/pub/pdf/rsavcaf9513.pdf
-
+  Sexual assault is <a href =" http://www.bjs.gov/content/pub/pdf/rsavcaf9513.pdf"> most prevalent from ages 18-24.</a> 
 
 New slide: So what exactly counts as domestic violence?
   -(for this section, I want to create a row of photos (similar to the album artwork assignment) that each represent a different type of abuse. When each picture is clicked, a list of abusive behaviors in that category drops down.)

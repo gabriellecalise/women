@@ -5,7 +5,7 @@
 
 body {
   background-color: #fff;
-  margin: auto;
+  margin: 0;
   font-family: 'Merriweather Sans', Verdana, sans-serif;
   padding-bottom: 20px;
 }
@@ -27,12 +27,10 @@ section {
 }
 
 
-
 #vote {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/cd/Suffragists_Parade_Down_Fifth_Avenue%2C_1917.JPG');
   color: #efc8d1;
   background-size:100%;
-
 }
 
  #vote > h1 {
@@ -52,6 +50,16 @@ section {
  background: #efc8d1;
  padding:10px;
  width:20%
+}
+
+
+
+#exit {
+  position: absolute;
+  top:30px;
+  right: 60px;
+  background-color: #253845;
+  color: #fff;
 }
 
 /*#supremeCourt {
@@ -81,9 +89,49 @@ img{
 .btn {
   display: inline-block;
   text-decoration:none;
-  font-family: Helvetiva, sans-serif;
+  font-family: Helvetiva, Verdana sans-serif;
   padding:5px 20px;
   background-color: #fff;
   font-size: 120%;
   cursor: pointer;
+}
+
+
+.abuseheading {
+ margin: 0;
+ padding: 4px 15px;
+ background: #000;
+ color: #fff;
+ border-bottom: 2px solid #fff;
+ text-transform: uppercase;
+
+ }
+
+ .abusebox {
+   margin: 0;
+   padding: 5px 20px;
+
+ }
+
+#physicalsigns{
+    background-color: #f1eef6;
+}
+
+#emotionalsigns {
+  background-color: #d7b5d8;
+}
+
+#sexualsigns{
+    background-color: #df65b0;
+}
+
+#financialsigns{
+    background-color: #dd1c77;
+    color: #fff;
+}
+
+#digitalsigns {
+    background-color: #980043;
+    color: #fff;
+
 }
