@@ -101,7 +101,7 @@ img{
  margin: 0;
  padding: 4px 15px;
  background: #000;
- color: #fff;
+ color: #ffefef;
  border-bottom: 2px solid #fff;
  text-transform: uppercase;
 
@@ -113,24 +113,24 @@ img{
 
  }
 
-#physicalsigns{
+#digitalsigns{
     background-color: #f1eef6;
 }
 
-#emotionalsigns {
+#financialsigns {
   background-color: #d7b5d8;
 }
 
-#sexualsigns{
+#emotionalsigns{
     background-color: #df65b0;
 }
 
-#financialsigns{
+#sexualsigns{
     background-color: #dd1c77;
     color: #fff;
 }
 
-#digitalsigns {
+#physicalsigns {
     background-color: #980043;
     color: #fff;
 
