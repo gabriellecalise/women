@@ -198,14 +198,24 @@ img{
 #physicalsigns {
     background-color: #980043;
     color: #fff;
-
 }
 
 
 @media (max-width: 600px) {
 
+  .black {background-color: #fff;
+          color: #000;}
+  #space  {background-image: none;}
+  #space > h1 {background: none;}
+  #mtop {background-image: none;}
+  #vote {background-image: none;
+        background-color: #ffefef;
+        color:#000;}
+  #vote > h1 {background: none;}
+  #sofar {background-image: none;}
+  #sofar > h1 {background: none;}
 
-.introslide {
-  background-repeat: no-repeat;
-    background-size: contain;
-  }
+  .black > h1 {font-size: 250%;}
+  .black > h2 {font-size: 150%;}
+
+    }

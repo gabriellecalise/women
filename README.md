@@ -268,3 +268,12 @@ I ended up using the fiddle about full-length slides as a guide for my interacti
 Next week I will also finish the other two sections and add attribution to all of the Creative Commons photos that I used. I will also polish up the CSS and make it responsive for mobile. I found some nice stock images that are free to use on stocksnap.io, and I plan on incorporating them into my website as well so that the three sections are more visually appealing.
 
 Finally, I will add an exit button so that the user has an opportunity to return to the home page after they finish learning about each topic.
+
+
+
+Week 3
+This week I learned how to use "data" class with J Query so that my buttons properly connected the different sections of my website. I also finished adding content to the Violence and Reproductive Rights slides. I created an interactive accordion for the domestic violence slide using J Query. I added a homepage and a title screen.
+
+I added my Highcharts pie chart to the violence slide but I can't get it to show up.
+
+The @media query was way more challenging than I thought. It is very difficult to make the background images in the introduction responsive and I'm not sure how to fix it. In the end, I decided to remove the background images completely. The site looks plain, but I would rather have a plain site than one that looks hideous.
