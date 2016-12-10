@@ -64,7 +64,7 @@ section {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.introslide >h2 {
+.introslide > h2 {
   font-weight: normal;
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -203,7 +203,7 @@ img{
 
 @media (max-width: 600px) {
 
-  .black {background-color: #fff;
+  #black {background-color: #fff;
           color: #000;}
   #space  {background-image: none;}
   #space > h1 {background: none;}
@@ -215,7 +215,7 @@ img{
   #sofar {background-image: none;}
   #sofar > h1 {background: none;}
 
-  .black > h1 {font-size: 250%;}
-  .black > h2 {font-size: 150%;}
+  #black > h1 {font-size: 250%;}
+  #black > h2 {font-size: 150%;}
 
     }
