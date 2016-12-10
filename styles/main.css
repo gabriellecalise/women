@@ -10,25 +10,82 @@ body {
   padding-bottom: 20px;
 }
 
+
+.caption {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  font-size: 50%;
+}
+
 h1 {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 250%;
+  font-size: 270%;
 }
 
+
 section {
-  height: 600px;
   padding: 20px;
+}
+
+
+
+#container{
+  min-width: 310px;
+  height: 400px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+#sticky {
+ text-align: center;
+ color: #fff;
+ position: absolute;
+ bottom: 15px;
+}
+
+.black {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.black > h1 {
+  font-size: 500%;
+}
+
+.black > h2 {
+  font-size: 250%;
+  font-weight: normal;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.introslide >h2 {
+  font-weight: normal;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .pink {
   background-color: #ffefef;
 }
 
+#sofar {
+  background-image: url("../images/ladies.jpg");
+  background-size:100%;
+}
+#sofar > h1 {
+ background: #efc8d1;
+ padding:10px;
+ width:20%
+}
+
 
 #vote {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/cd/Suffragists_Parade_Down_Fifth_Avenue%2C_1917.JPG');
+  background-image: url('../images/parade.jpg');
   color: #efc8d1;
   background-size:100%;
 }
@@ -41,7 +98,7 @@ section {
 
 
 #space  {
-  background-image: url('https://c7.staticflickr.com/8/7295/27607595222_d116c4cf21_k.jpg');
+  background-image:url('../images/sallyRide1.jpg');
   background-size:100%;
   color: #000;
 }
@@ -53,13 +110,17 @@ section {
 }
 
 
-
 #exit {
   position: absolute;
   top:30px;
   right: 60px;
   background-color: #253845;
   color: #fff;
+}
+
+#mtop {
+  background-image: url('../images/table.jpg');
+  background-size:100%;
 }
 
 /*#supremeCourt {
@@ -96,29 +157,33 @@ img{
   cursor: pointer;
 }
 
+/*.pinkbtn {
+  background-color: #ffefef;
+}*/
+
 
 .abuseheading {
  margin: 0;
  padding: 4px 15px;
  background: #000;
- color: #ffefef;
+ color: #fff;
  border-bottom: 2px solid #fff;
  text-transform: uppercase;
 
  }
 
- .abusebox {
+.abusebox {
    margin: 0;
    padding: 5px 20px;
 
  }
 
 #digitalsigns{
-    background-color: #f1eef6;
+    background-color: #fbdeff;
 }
 
 #financialsigns {
-  background-color: #d7b5d8;
+  background-color: #af90bc;
 }
 
 #emotionalsigns{
@@ -126,7 +191,7 @@ img{
 }
 
 #sexualsigns{
-    background-color: #dd1c77;
+    background-color: #b63d72;
     color: #fff;
 }
 
@@ -135,3 +200,12 @@ img{
     color: #fff;
 
 }
+
+
+@media (max-width: 600px) {
+
+
+.introslide {
+  background-repeat: no-repeat;
+    background-size: contain;
+  }

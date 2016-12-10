@@ -1,7 +1,12 @@
 $(document).ready(function() {
 
+
+  $('.introslide').css( {'height': (  $(window).height() )  } );
+
+  $('#anchor').css( {'height': (  $(window).height() )  } );
+
   $('.all-secs').css( {'height': (  $(window).height() )  } );
-//put a class on all intro panels and add the same line but with that class. DO NOT EVER PuT ALL SECS ON THE INTRO
+//put a class on all intro panels and add the same line but with that class. DO NOT EVER PUT ALL SECS ON THE INTRO
 
   // hide all the divs
   $('.all-secs').hide();
@@ -29,6 +34,23 @@ $(document).ready(function() {
     $(slide).slideDown();
   });
 
+  $('.lastbut').click(function() {
+
+    //reveal intro
+   $('#intro').show();
+
+     // hide any open div
+    $('.all-secs').slideUp();
+
+    $(document).scrollTop( $("#anchor").offset().top );
+
+
+    //$('.introslide').slideUp();
+
+    // get value of data attribute from the thing that was clicked -probably delete
+    //var slide = $(this).data('slide');
+    //$(slide).slideDown();
+  });
 
 
 //accordion style

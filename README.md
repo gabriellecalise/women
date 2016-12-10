@@ -118,7 +118,7 @@ New slide: Domestic Violence By the Numbers
 - On a typical day, domestic violence hotlines nationwide receive approximately 20,800  calls
  -- According to a fact sheet by the National Coalition Against Domestic Violence in the United States.
 https://ncadv.org/files/National%20Statistics%20Domestic%20Violence%20NCADV.pdf
-  Sexual assault is <a href =" http://www.bjs.gov/content/pub/pdf/rsavcaf9513.pdf"> most prevalent from ages 18-24.</a> 
+  Sexual assault is <a href =" http://www.bjs.gov/content/pub/pdf/rsavcaf9513.pdf"> most prevalent from ages 18-24.</a>
 
 New slide: So what exactly counts as domestic violence?
   -(for this section, I want to create a row of photos (similar to the album artwork assignment) that each represent a different type of abuse. When each picture is clicked, a list of abusive behaviors in that category drops down.)
@@ -183,7 +183,7 @@ What do you think?
   No Button
 
 If you said Yes
-  You're right, and it's up to you to make sure that women can still access abortions.
+  It's up to you to make sure that women can still access abortions.
 
   Why?
   The rate of abortions is similar in countries where abortion is legal and illegal – meaning that if safe abortions aren’t available, women will get them anyway. (According to a global study by the World Health Organization http://www.nytimes.com/2007/10/12/world/12abortion.html)

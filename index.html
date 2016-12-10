@@ -6,45 +6,67 @@
     <title>Women</title>
     <link rel="stylesheet" href="styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+    <link href="fonts/fontawesome-webfont.eot" rel="stylesheet">
+    <script src="js/highcharts.js"></script>
+    <script type="text/javascript" src="js/themes/dark-unica.js"></script>
+
 </head>
 
 <body>
 
+
+
 <div id="intro">
-  <section class="pink">
-<h1> Women <br>have come so far <br>in America</h1>
+
+
+<section class="black introslide">
+  <h1>The American Woman:</h1>
+  <h2> From the 19th Amendment to <br>  the 21st Century </h2>
+  <p> A website by Gabrielle Calise </p>
+  <h2><span class="icon"><i id="sticky" class="fa fa-arrow-circle-down" aria-hidden="true"></i></span></h2>
 </section>
 
 
-<section class="box" id="vote">
+<section class="introslide" id="vote">
 <h1> From getting <br> the right to vote</h1>
+
+
+
 </section>
 
-<section>
-<h1> To gaining <br> more control over <br> our bodies and careers. </h1>
+<section class="introslide">
+<h1> To gaining <br> more control over <br> our bodies and careers, </h1>
+
+<!--<p class="caption"> Creative Commons photo from the The New York Times photo archive. <br> Used with permission from <a href="https://commons.wikimedia.org/wiki/File:Suffragists_Parade_Down_Fifth_Avenue,_1917.JPG"> Wikemedia Commons.</a></p>--> 
 </section>
 
-<section class="pink">
+<section id="sofar" class="pink introslide">
+<h1> Women have come <br>so far in America.</h1>
+</section>
+
+<section class="introslide">
 <h1> We've gone <br>more places,<br> from higher office</h1>
 </section>
 
 
-<section class="pink" id="space">
+<section class="pink introslide" id="space">
 <h1>All the way to outer space.</h1>
 </section>
 
-<section class="panel1">
+<section class="introslide">
   <h1> But <br>there is <br>still so <br> much left to do.</h1>
-  <h2> So let's get started </h2>
+  <h2> Let's get started. </h2>
 </section>
 
-<section class="pink topbut" data-slide="#issuelist">
+<section id="anchor" class="pink topbut" data-slide="#issuelist">
   <h1>What issue <br> do you want <br> to learn about? </h1>
     <button type="button" class="issue btn topbut" data-slide="#mtop">Let's talk money</button>
     <button type="button" class="issue btn topbut" data-slide="#vtop">Violence against women</button>
     <button type="button" class="issue btn topbut" data-slide="#rtop">Reproductive rights</button>
 </section>
+
 </div>
+
 
 
 <section id="mtop" class="all-secs">
@@ -52,13 +74,15 @@
   <h2>Economic issues that women face today</h2>
   <h3> Quiz time</h3>
   <p> The wage gap is a myth -- true or false?</p>
-      <button class="btn otherbut"  data-slide="#mgap" id="true1">True</button>
-      <button class="btn otherbut" data-slide="#mgap" id="false1" >False</button>
+
+      <button class="btn pinkbtn otherbut"  data-slide="#mgap" id="true1">True</button>
+      <button class="btn pinkbtn otherbut" data-slide="#mgap" id="false1" >False</button>
   <!-- <img src="images/workingwoman.jpg" alt="working woman"> -->
+<p class="caption"> Creative Commons photo by Bench Accounting. <br> Used with permission from <a href="https://stocksnap.io/photo/C332PCV8D0"> StockSnap.io</a></p>
 
 </section>
 
- <section id="mgap" class="all-secs pink" >
+ <section id="mgap" class="all-secs pink">
    <h2>Answer: False </h2>
      <p> The bad news: According to the US Department of Commerce, the average woman made $0.79 for every dollar a man earned in 2014. </p>
 
@@ -67,13 +91,13 @@
 </section>
 
 <section id="mage" class="all-secs">
-        <h1>What do you think happens as women age?</h1>
-          <button type="button" class="btn otherbut" data-slide="#mpenalty" id="getsBetter">It gets better</button>
-          <button type="button" class="btn otherbut" data-slide="#mpenalty" id="getsWorse">It gets worse</button>
+        <h1>How do you think the wage gap changes as women age?</h1>
+          <button type="button" class="btn pinkbtn otherbut" data-slide="#mpenalty" id="getsBetter">It gets better</button>
+          <button type="button" class="btn pinkbtn otherbut" data-slide="#mpenalty" id="getsWorse">It gets worse</button>
 </section>
 
 <section id="mpenalty" class="all-secs pink">
-  <h2> Answer: It actually gets worse.</h2>
+  <h2> Answer: As women get older, the wage gap actually gets worse.</h2>
     <p> Even if ladies make the same amount as their male counterparts early in their careers, there's something called the <strong>motherhood penalty</strong> that can make things harder for them later in life. </p>
 
     <p>University of Massachusetts sociologist Michelle Budig found that on average, <a href= "http://www.thirdway.org/report/the-fatherhood-bonus-and-the-motherhood-penalty-parenthood-and-the-gender-gap-in-pay"> men make 6% more when they had children, and women made 4% less for EACH child that they had.</a>
@@ -85,8 +109,8 @@
 
   <section id="mleave" class="all-secs">
       <h1>True or false – the United States is the only industrialized country that doesn’t have paid maternity or family leave.</h1>
-          <button type="button" class="btn otherbut" data-slide="#mleaveanswer">True</button>
-          <button type="button" class="btn otherbut" data-slide="#mleaveanswer">False</button>
+          <button type="button" class="btn pinkbtn otherbut" data-slide="#mleaveanswer">True</button>
+          <button type="button" class="btn pinkbtn otherbut" data-slide="#mleaveanswer">False</button>
   </section>
 
 
@@ -109,7 +133,7 @@
      <li> Finally, some of the gap can be explained by gender descrimination. Women are <a href="http://www.pewresearch.org/fact-tank/2015/04/14/on-equal-pay-day-everything-you-need-to-know-about-the-gender-pay-gap/"> twice as likely </a> to say that they felt descriminated in the workplace. </li>
     </ul>
 
-    <button type="button" class="btn otherbut" data-slide="#mhelp">So now what?</button>
+    <button type="button" class="btn pinkbtn otherbut" data-slide="#mhelp">So now what?</button>
 
   </section>
 
@@ -133,7 +157,7 @@
         <li> Support campaigns for paid family leave	http://www.huffingtonpost.com/2015/04/14/things-we-need-to-do-to-close-wage-gap_n_7056322.html
         -	http://www.theatlantic.com/business/archive/2016/03/equal-pay/472407/ </li>
       </ul>
-        <button type="button" class="btn otherbut" data-slide="#mshare">Learn about abother issue</button>
+        <button type="button" class="btn lastbut" data-slide="#issuelist"> Learn about another issue </button>
   </section>
 
 
@@ -141,6 +165,10 @@
 
   <section id="vtop" class="all-secs pink">
     <h1> Violence Against Women </h1>
+
+    <h2> Domestic abuse is defined by the <a href="https://www.justice.gov/ovw/domestic-violence"> U.S. Department of Justice</a>as
+    a pattern of abusive behavior in any relationship that is used by one partner to gain or maintain power and control over another intimate partner. Unfortunately, it's a huge problem in America.</h2>
+
     <h2> Domestic abuse by the numbers </h2>
     <h3> Source:
    <a href= "https://ncadv.org/files/National%20Statistics%20Domestic%20Violence%20NCADV.pdf"> National Coalition Against Domestic Violence statistics sheet </a> </h3>
@@ -155,27 +183,93 @@
   </section>
 
 
-  <section id="vtypes" class="all-secs">
+  <section id="vtypes" class="all-secs pink">
     <h1> Types of abuse </h1>
-     <h2> According to the National Domestic Abuse Hotline, domestic abuse isn't just hitting a partner. It can manifest in several different ways, and each can be serious. Click on each category below to learn about the different forms of abuse. </h2>
+     <h2> Domestic abuse isn't just hitting a partner. It can manifest in several different ways, and each can be serious. Click on each category below to learn about the different forms of abuse. </h2>
 
 
     <h2 class="abuseheading" id="digital"> Digital Abuse </h2>
-      <p class="abusebox" id="digitalsigns"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Intege   </p>
+      <div class="abusebox" id="digitalsigns">
+        <ul>
+          <li>Tells you who you can or can’t be friends with on Facebook and other sites</li>
+          <li>Sends you negative, insulting or even threatening emails, Facebook messages, tweets, DMs or other messages online</li>
+          <li>Uses sites like Facebook, Twitter, foursquare and others to keep constant tabs on you</li>
+          <li>Puts you down in their status updates</li>
+          <li>Sends you unwanted, explicit pictures and demands you send some in return</li>
+          <li>Pressures you to send explicit video</li>
+          <li>Steals or insists to be given your passwords</li>
+          <li>Constantly texts you and makes you feel like you can’t be separated from your phone for fear that you will be punished</li>
+          <li>Looks through your phone frequently, checks up on your pictures, texts and outgoing calls</li>
+          <li>Tags you unkindly in pictures on Instagram, Tumblr, etc</li>
+        </ul>
+      </div>
 
     <h2 class="abuseheading" id="financial"> Financial Abuse</h2>
-      <p class="abusebox" id="financialsigns"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Intege  </p>
+      <div class="abusebox" id="financialsigns">
+        <ul>
+          <li>Giving an allowance and closely watching how you spend it or demanding receipts for purchases</li>
+          <li>Placing your paycheck in their bank account and denying you access to it</li>
+          <li>Preventing you from viewing or having access to bank accounts</li>
+          <li>Forbidding you to work or limiting the hours that you can work</li>
+          <li>Maxing out credit cards in your name without permission or not paying the bills on credit cards, which could ruin your credit score</li>
+          <li>Stealing money from you or your family and friends</li>
+          <li>Living in your home but refusing to work or contribute to the household</li>
+          <li>Making you give them your tax returns or confiscating joint tax returns</li>
+          <li>Refusing to give you money to pay for necessities/shared expenses like food, clothing, transportation, or medical care and medicine</li>
+        </ul>
+      </div>
 
     <h2 class="abuseheading" id="emotional"> Emotional Abuse</h2>
-      <p class="abusebox" id="emotionalsigns"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis</p>
+      <div class="abusebox" id="emotionalsigns">
+        <ul>
+        <li> Calling you names, insulting you or continually criticizing you</li>
+        <li>Refusing to trust you and acting jealous or possessive</li>
+        <li>Trying to isolate you from family or friends</li>
+        <li>Monitoring where you go, who you call and who you spend time with</li>
+        <li>Demanding to know where you are every minute</li>
+        <li>Trapping you in your home or preventing you from leaving</li>
+        <li>Using weapons to threaten to hurt you</li>
+        <li>Punishing you by withholding affection</li>
+        <li>Damaging your property when they’re angry (throwing objects, punching walls, kicking doors, etc.)</li>
+        <li>Humiliating you in any way</li>
+        <li>Blaming you for the abuse</li>
+        <li>Accusing you of cheating and being often jealous of your outside relationships</li>
+        <li>Serially cheating on you and then blaming you for his or her behavior </li>
+        <li>Cheating on you intentionally to hurt you and then threatening to cheat again, or cheating to prove that they are more desired, worthy, etc. than you are</li>
+        <li>Attempting to control your appearance: what you wear, how much/little makeup you wear, etc.</li>
+        <li>Telling you that you will never find anyone better, or that you are lucky to be with a person like them </li>
+      </ul>
+      </div>
 
     <h2 class="abuseheading" id="sexual"> Sexual Abuse </h2>
-      <p class="abusebox" id="sexualsigns"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus  </p>
+      <div class="abusebox" id="sexualsigns">
+          <ul>
+            <li> Forcing or manupulating you into having sex/performing sexual acts</li>
+            <li>Forcing you to dress in a sexual way </li>
+            <li> Holding you down during sex</li>
+            <li> Demanding sex, especially when you are sick or tired </li>
+            <li> Involving other people in sexual activities with you against your will</li>
+            <li> Insulting you in sexual ways or calls you sexual names</li>
+            <li> Forcing you to watch pornography</li>
+            <li>Purposefully trying to pass on a sexually transmitted disease to you</li>
+          </ul>
+      </div>
 
     <h2 class="abuseheading" id="physical"> Physical Abuse </h2>
-      <p class="abusebox" id="physicalsigns"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.   </p>
+      <div class="abusebox" id="physicalsigns">
+        <ul>
+          <li> Slapping, kicking, punching, scratching, biting or choking you</li>
+          <li>Stopping you from seeking medical attention or calling the police </li>
+          <li>Leaving you in unfamiliar places </li>
+          <li>Forbidding you from eating or sleeping </li>
+          <li> Driving dangerously while you are in the car</li>
+          <li>Making you use alcohol or drugs </li>
+        </ul>
+      </div>
 
-      <p> Learn more about differend types of abuse by visiting <a href = "http://www.thehotline.org/is-this-abuse/abuse-defined/#tab-id-5"> the National Domestic Hotline's website </a></p>
+      <p> Source: <a href = "http://www.thehotline.org/is-this-abuse/abuse-defined/#tab-id-5"> The National Domestic Hotline </a></p>
+
+      <p> If you are experiencing abuse, please call The National Domestic Abuse Hotline at <a href="tel:1-800-799-7233">1-800-799-7233</a></p>
 
     <button type="button" class="btn otherbut" data-slide="#vresources">Learn how to help domestic abuse survivors </button>
 </section>
@@ -193,159 +287,172 @@
   <p> Bring gift cards, hygiene items and clothes to women’s shelters. There's always a need for these kinds of items, and they go fast! </p>
   <p> Don't have a ton of time or resources to give? <a href="https://smile.amazon.com/?ie=UTF8&ein=75-1658287&ref_=smi_ext_ch_75-1658287_cl&ref_=smi_ext_ch_75-1658287_dl"> Set the National Domestic Violence Hotline as your charity of choice for Amazon Smile. </a> With every purchase you make, Amazon will donate 0.5% to the organization.  </p>
 
-   <button type="button" class="btn otherbut" data-slide="#">What about other forms of violence against women?</button>
+   <button type="button" class="btn otherbut" data-slide="#vassault">What about other forms of violence against women?</button>
+</section>
 
 
-<!-- THIS IS THE OLD POPUP, BEFORE I LEARNED HOW TO DO A NEW JS ANIMATION
+<section id="vassault" class="all-secs pink">
 
-<section id="issuemoney">
-    <img src="images/workingwoman.jpg" alt="working woman">
-  <h1>Let's talk money</h1>
-  <h2>Economic issues that women face today</h2>
+  <h1> Sexual assault is a huge issue in America. </h1>
+  <p> <a href="http://ncadv.org/learn-more/statistics"> 1 in 5 women are sexually assaulted during their college years</a>, according to the National Coalition Against Domestic Violence.<p>
 
+  <p> More often than not, the offender is someone that the  survivor knew </p>
 
-<div id="set1" class="parent">
-  <div id="hide1">
-  <div class="question" id="question1">
-    <h3 class="section-subsubheading"> Quiz time <br> The wage gap is a myth -- true or false? </h3>
+<div id="container"></div>
 
-        <button type="button" class="btn" id="true1">True</button>
-        <button type="button" class="btn" id="false1" >False</button>
+<script>
+$(function() {
+  $(document).ready(function() {
+    // Build the chart
+    Highcharts.chart('container', {
+      chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+      },
+      title: {
+        text: '<strong>Rape/sexual assault survivor-offender relationship</strong> <br> Source: Bureau of Justice Statistics, National Crime Victimization Survey, 1995–2013.'
+      },
+      tooltip: {
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+      },
+      plotOptions: {
+        pie: {
+          allowPointSelect: true,
+          cursor: 'pointer',
+          dataLabels: {
+            enabled: false
+          },
+          showInLegend: true
+        }
+      },
+      series: [{
+        name: 'Percent of offenders',
+        colorByPoint: true,
+        data: [{
+          name: 'Intimate partners',
+          y: 24
+        }, {
+          name: 'Strangers',
+          y: 22,
 
-  <div class="answer" id="trueanswer1">
-    <h4>Answer: False </h4>
-      <p> The bad news: According to the US Department of Commerce, the average woman made $0.79 for every dollar a man earned in 2014. </p>
+        }, {
+          name: 'Well-known/casual aquaintance',
+          y: 50
+        }, {
+          name: 'Relative',
+          y: 2
+        }]
+      }]
+    });
+  });
+});
+</script>
 
-      <p>The good news: the gap is smaller for young women, who earn 93% of the average hourly wage of men the same age, <a href="http://www.pewsocialtrends.org/2013/12/11/on-pay-gap-millennial-women-near-parity-for-now/">according to the Pew Research Center.</a></p>
-
-    <div id="nextQuestionTrue1">
-    <div class="child">
-      <button type="button" class="btn"> Next question</button>
-    </div>
-   </div>
- </div>
-  </div>
-
-  <div class="answer" id="falseanswer1">
-    <h4>Answer: False </h4>
-      <p> The bad news: According to the US Department of Commerce, the average woman made $0.79 for every dollar a man earned in 2014. </p>
-
-      <p>The good news: the gap is smaller for young women, who earn 93% of the average hourly wage of men the same age, <a href="http://www.pewsocialtrends.org/2013/12/11/on-pay-gap-millennial-women-near-parity-for-now/">according to the Pew Research Center.</a></p>
-
-      <div id="nextQuestionFalse1">
-      <div class="child">
-        <button type="button" class="btn">Next question</button>
-      </div>
-     </div>
-    </div>
-   </div>
- </div>
-
-
-
-
-  <div id="set2">
-    <div class="question" id="question2">
-      <h3>What do you think happens as women age?</h3>
-        <button type="button" class="btn btn-success" id="getsBetter">It gets better</button>
-
-        <button type="button" class="btn btn-danger" id="getsWorse">It gets worse</button>
-      </div>
-  </div>
-
-
-<div class="answer" id="answer2">
-    <h4> Answer: It actually gets worse.</h4>
-      <p> Even if ladies make the same amount as their male counterparts early in their careers, there's something called the <strong>motherhood penalty</strong> that can trip them up later in life. </p>
-
-      <p>University of Massachusetts sociologist Michelle Budig found that on average, <a href= "http://www.thirdway.org/report/the-fatherhood-bonus-and-the-motherhood-penalty-parenthood-and-the-gender-gap-in-pay"> men make 6% more when they had children, and women made 4% less for EACH child that they had.</a>
-      </p>
-
-    <button type="button" class="btn btn-outline-primary">Next question</button>
-  </div>
+<button type="button" class="btn otherbut" data-slide="#vprotect"> What counts as domestic violence?</button>
+</section>
 
 
-  <div class="question" id="question3">
-    <h3>True or false – the United States is the only industrialized country that doesn’t have paid maternity or family leave.</h3>
-
-    <button type="button" class="btn btn-success">True</button>
-
-    <button type="button" class="btn btn-danger">False</button>
-  </div>
-
+<section id="vprotect" class="all-secs pink">
+  <h1> How can you fight against sexual assault? </h1>
+  <h2> Look out for others </h2>
+    <p> Don't be a bystander. If you see another person who looks like they are at risk, step in to help them. There's even training courses that can teach you how to do this, like <a href="https://www.ihollaback.org/">Hollaback! Intervention Training.</a></p>
+  <h2> Learn how to defend yourself </h2>
+    <p> Females can take RAD Training and learn self defense skills. To find a class near you, check out the <a href="http://www.rad-systems.com/program_locator_student.html"> program locator.</a></p>
 
 
-<div class="answer" id="answer3">
-    <h4> Answer: True</h4>
-        <p> There is no guaranteed family leave, unless your employer grants it or you live in California, Rhode Island or New Jersey, which offer state-mandated paid leave. According to the Bureau of Labor Statistics, <a href="http://www.politifact.com/truth-o-meter/statements/2016/jul/25/kirsten-gillibrand/yes-us-only-industrialized-nation-without-paid-fam/"> only 13 percent of employers offer paid maternity leave</a>. </p>
+<button type="button" class="btn lastbut" data-slide="#issuelist"> Learn about another issue </button>
+</section>
 
-        <p>This is a problem because caregiving typically falls on women. However, <a href="  http://www.theatlantic.com/business/archive/2016/03/no-paid-maternity-leave/470889/">40 percent of women are breadwinners for their families, and 70 percent of mothers work outside the home.</a> </p>
 
-        <button type="button" class="btn btn-outline-primary">Next question</button>
-</div>
+<section id="rtop" class="all-secs pink">
 
-<div class="question" id="question4">
-   <h3> Ok, so why is the wage gap happening? </h3>
-   <ul>
-    <li>Some common reasons for the wage gap are occupational segregation, differences in the number of hours worked and educational attainment.</li>
-    <li>Experts also attribute <a href="http://www.pewsocialtrends.org/2013/12/11/on-pay-gap-millennial-women-near-parity-for-now/"> 20-40% of the wage gap to other reasons </a> that are much harder to quantify, including gender stereotypes, male-dominated career networks and the fact that women are less likely to negotiate for raises and promotions. </li>
-    <li> Finally, some of the gap can be explained by gender descrimination. Women are <a href="http://www.pewresearch.org/fact-tank/2015/04/14/on-equal-pay-day-everything-you-need-to-know-about-the-gender-pay-gap/"> twice as likely </a> to say that they felt descriminated in the workplace. </li>
-  </ul>
+  <h1> Reproductive issues </h1>
 
-   <button type="button" class="btn btn-outline-primary">So now what?</button>
- </div>
+  <h2> According to a  <a href="http://www.pewresearch.org/data-trend/domestic-issues/abortion/">10-year survey by the Pew Research Center </a>,
+  56% percent of Americans think that abortion  should be legal in all or most cases. </h2>
+
+  <h2> What do you think? </h2>
+  <button type="button" class="btn otherbut" data-slide="#rlegal">I think abortion should be legal</button>
+
+  <button type="button" class="btn otherbut" data-slide="#rillegal">I think abortion should be illegal</button>
+
+</section>
 
 
 
+<section id="rlegal" class="all-secs pink">
+  <h1>  Why does it matter if abortions are legal? </h1>
+  <p> The rate of abortions is similar in countries where abortion is legal and illegal – meaning that if safe abortions aren’t available, women will get them anyway. </p>
 
- <div class="question" id="question5">
+  <p> According to a <a href="http://www.nytimes.com/2007/10/12/world/12abortion.html"> global study by the World Health Organization</a>, about 20 million abortions that would be considered unsafe were performed anyway. 67,000 women die as a result of complications from this procedure. </p>
 
-  <h3>It is estimated that the Gender Gap will take <a  href="http://www.nbcnews.com/business/economy/gender-pay-gap-will-be-erased-it-will-take-118-n466631 "> 118 years to close worldwide.</a> So what can you do to help?</h3>
-
-  <h4> Support resources that teach women how to negotiate.</h4>
-    <ul>
-      <li>The <a href ="http://www.aauw.org/"> American Association of University Women  </a>hosts leadership conferences and negotiation seminars. To find a branch near you or to learn how you can donate, <a href="http://www.aauw.org/what-we-do/salary-negotiation-workshops/"> click here. </a> </li>
-    </ul>
-
-    <h4> Tell Congress to pass the Paycheck Fairness Act. </h4>
-      <ul>
-        <li>This bill aims to strengthen the Equal Pay Act by empowering women to negotiate for equal pay, creating incentives for employers to follow the law, and increasing federal outreach. </li>
-        <li> You can find your elected official and send them an email in just a few minutes by <a href="http://salsa4.salsalabs.com/o/50796/p/dia/action3/common/public/?action_KEY=14710&killorg=True"> clicking here.</a> </li>
-        </ul>
-
-  <h4> Support campaigns for paid family leave </h4>
-    <ul>
-      <li> Support campaigns for paid family leave	http://www.huffingtonpost.com/2015/04/14/things-we-need-to-do-to-close-wage-gap_n_7056322.html
-      -	http://www.theatlantic.com/business/archive/2016/03/equal-pay/472407/ </li>
-    </ul>
-</div>
-
--->
+    <button type="button" class="btn otherbut" data-slide="#rhelp">What can I do to help?</button>
+</section>
 
 
-<!--
-<h1>Stopping Violence Against Women</h1>
-<h2>The facts, the stats, and how you can help</h2>
+<section id="rhelp" class="all-secs pink">
+  <h1>Get involved </h1>
+  <h2> Become a clinic escort. </h2>
+    <p>Protesters often gather outside of abortion clinics to chant and scream at women who are going inside. Clinic escorts guide patients inside the building and shield them from harassment.  To learn more about becoming a clinic escort, <a href="http://nymag.com/thecut/2016/11/how-to-become-an-abortion-clinic-escort.html"> check out this guide from NY Magazine.</a>
 
-<h3>1 in 5 women are sexually assaulted during their college years, according to the National Coalition Against Domestic Violence.</h3>
+<h2> Stand with Planned Parenthood.</h2>
+    <p>Volunteer with Planned Parenthood to bring education and health services to women. <a href= "https://plannedparenthoodrccorpvolunteer.peoplefluent.com/joblist.html?erpc=alljobs">Click here to find opportunities in your state.</a>
 
-<h4> In about <a href="http://www.bjs.gov/content/pub/pdf/rsavcaf9513.pdf"> 80% of rape and sexual assault cases for people ages 18-24</a> the offender was someone that the victim knew.</h4>
+    <p>College students can join Planned Parenthood Generation Action. This program raises awareness about reproductive rights and sexual health. To see what your campus offers, go <a href="https://www.plannedparenthoodaction.org/community/planned-parenthood-generation-action/find-your-planned-parenthood-generation-action-group"> here.</a> To start your own chapter, <a href="https://www.plannedparenthoodaction.org/community/planned-parenthood-generation-action/contact-planned-parenthood-generation-action/"> contact Planned Parenthood.</a>
 
-<p> (insert pie chart that I made https://jsfiddle.net/gabriellecalise/v4s33p6t/)</p>
+<h2> Contact your elected officials </h2>
+   <p> All Above All is an organization that seeks to overturn the Hyde Amendment and other abortion restrictions.  The group encourages people to email congresspeople and ask them to lift government restrictions on abortion access. <a href="http://action.allaboveall.org/page/speakout/lift-the-bans">Find your elected official, learn about the issues, and send an email here. </a>
+
+  <button type="button" class="btn otherbut" data-slide="#rreduce">What else can I do?</button>
+</section>
+
+<section id="rillegal" class="all-secs pink">
+  <h1>  What happens if abortion is illegal?</h1>
+  <h2>The bad news </h2>
+    <p>the rate of abortions is similar in countries where abortion is legal and illegal – meaning that if safe abortions aren’t available, women will get them anyway. </p>
+    <p> According to a <a href="http://www.nytimes.com/2007/10/12/world/12abortion.html"> global study by the World Health Organization</a>, about 20 million abortions that would be considered unsafe were performed anyway. 67,000 women die as a result of complications from this procedure. </p>
+
+  <h2> The good news </h2>
+    <p> <em>There's a way to reduce the number of abortions without making it illegal and forcing women to get risky clandestine procedures.</em> </p>
+
+  <button type="button" class="btn otherbut" data-slide="#rreduce"> How can we reduce abortions?</button>
+</section>
 
 
+<section id="rreduce" class="all-secs pink">
 
-<p> 26% of student victims who did not report to police believed the incident
-was a personal matter, and 1 in 5 stated a fear of reprisal. </p>
+<h1> Here's how you can help:</h1>
+  <h2> 1. Support contraceptive access and family planning centers </h2>
+
+  <p> Publicly-funded family planning services are crucial  in providing resources for women -- both the ladies that want families and those who don't.
+  According to the Guttmacher Institute, these facilities <a href="https://www.guttmacher.org/fact-sheet/publicly-funded-family-planning-services-united-states"> helped women avoid two million unintended pregnancies.</a> The Institute estimates that those pregnancies would have resulted in 900,000 unplanned births and nearly 700,000 abortions.</p>
+
+  <p>Title X is the US Government's program that funds confidential, low-cost family planning services </p>
+  <p> According to the Center for Reproductive Rights, <a href="https://www.reproductiverights.org/project/contraceptive-access-in-the-united-states"> funding for the U.S. Government's Title X is decreasing.</a> It's 61% lower today than it was in 1980.</p>
+  <p> To help, you can support family planning services. <p>
+  <p> You can also reach out to your elected officials and let them know that defunding family planning centers is harmful to the women that depend on them. Locate your representatives <a href="http://act.commoncause.org/site/PageServer?pagename=sunlight_advocacy_list_page"> here.</a>
 
 
-Statistics from "Rape and violence against college aged females" – I’m using this document because it specifically focuses on college-aged women and that’s definitely the age group that I’m targeting with this project
-o	http://www.bjs.gov/content/pub/pdf/rsavcaf9513.pdf
+<h2> 2. Support comprehensive, fact-based sex education </h2>
 
--->
+  <p> More than 47 percent of high school students say they've had sex, <a href="http://www.ncsl.org/research/health/state-policies-on-sex-education-in-schools.aspx">according to a 2011 study by the Center for Disease Control and Prevention. </a> And only 60% of the students surveyed said they used a condom during their last sexual encounter!</p>
+
+  <p> Here's the insane part -- <a href="https://www.guttmacher.org/state-policy/explore/sex-and-hiv-education"> only 22 states mandate sex and HIV education, and only 13 require that sex ed is medically  accurate.</a> </p>
+
+  <p> Studies show that <a href="http://www.unfpa.org/comprehensive-sexuality-education"> abstinence-only education is not effective,</a> according to the United Nations Population Fund. </p>
+
+  <p> The solution: we need to make sexual and reproductive health more accessible to adolescents.<p>
+
+
+<button type="button" class="btn lastbut" data-slide="#issuelist"> Learn about another issue </button>
+</section>
+
 
 
     <!--scripts-->
+    <script src="https://use.fontawesome.com/d40c0404ed.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/women.js"></script>
 
