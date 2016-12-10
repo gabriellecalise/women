@@ -54,11 +54,11 @@ section {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.black > h1 {
+#black > h1 {
   font-size: 500%;
 }
 
-.black > h2 {
+#black > h2 {
   font-size: 250%;
   font-weight: normal;
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
