@@ -3,12 +3,18 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Women</title>
+    <title>The American Woman</title>
     <link rel="stylesheet" href="styles/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"> </script>
+    <!-- add Highcharts in the head of your page -->
+    <script src="js/highcharts.js"></script>
+    <script type="text/javascript" src="js/themes/sand-signika.js"></script>
+
+
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
     <link href="fonts/fontawesome-webfont.eot" rel="stylesheet">
-    <script src="js/highcharts.js"></script>
-    <script type="text/javascript" src="js/themes/dark-unica.js"></script>
+
 
 </head>
 
@@ -30,14 +36,10 @@
 <section class="introslide" id="vote">
 <h1> From getting <br> the right to vote</h1>
 
-
-
 </section>
 
 <section class="introslide">
 <h1> To gaining <br> more control over <br> our bodies and careers, </h1>
-
-<!--<p class="caption"> Creative Commons photo from the The New York Times photo archive. <br> Used with permission from <a href="https://commons.wikimedia.org/wiki/File:Suffragists_Parade_Down_Fifth_Avenue,_1917.JPG"> Wikemedia Commons.</a></p>-->
 </section>
 
 <section id="sofar" class="pink introslide">
@@ -63,6 +65,9 @@
     <button type="button" class="issue btn topbut" data-slide="#mtop">Let's talk money</button>
     <button type="button" class="issue btn topbut" data-slide="#vtop">Violence against women</button>
     <button type="button" class="issue btn topbut" data-slide="#rtop">Reproductive rights</button>
+
+    <button  id="aboutbut" type="button" class="infobut btn topbut" data-slide="#aboutproj">About the website</button>
+  <!--<button type="button" class="infobut btn topbut" data-slide="#photocred"> About the photos</button>-->
 </section>
 
 </div>
@@ -72,13 +77,11 @@
 <section id="mtop" class="all-secs">
   <h1>Let's talk money</h1>
   <h2>Economic issues that women face today</h2>
-  <h3> Quiz time</h3>
-  <p> The wage gap is a myth -- true or false?</p>
+  <h3> Quiz time: The wage gap is a myth -- true or false?</h3>
 
       <button class="btn pinkbtn otherbut"  data-slide="#mgap" id="true1">True</button>
       <button class="btn pinkbtn otherbut" data-slide="#mgap" id="false1" >False</button>
-  <!-- <img src="images/workingwoman.jpg" alt="working woman"> -->
-<p class="caption"> Creative Commons photo by Bench Accounting. <br> Used with permission from <a href="https://stocksnap.io/photo/C332PCV8D0"> StockSnap.io</a></p>
+
 
 </section>
 
@@ -86,23 +89,30 @@
    <h2>Answer: False </h2>
      <p> The bad news: According to the US Department of Commerce, the average woman made $0.79 for every dollar a man earned in 2014. </p>
 
-     <p>The good news: the gap is smaller for young women, who earn 93% of the average hourly wage of men the same age, <a href="http://www.pewsocialtrends.org/2013/12/11/on-pay-gap-millennial-women-near-parity-for-now/">according to the Pew Research Center.</a></p>
+     <p>The good news: the gap is smaller for young women, who earn 93% of the average hourly wage of men the same age, <a href="http://www.pewsocialtrends.org/2013/12/11/on-pay-gap-millennial-women-near-parity-for-now/" target="_blank">according to the Pew Research Center.</a></p>
    <button class="btn otherbut" data-slide="#mage"> Next question</button>
 </section>
 
 <section id="mage" class="all-secs">
-        <h1>How do you think the wage gap changes as women age?</h1>
+          <h1 >How do you think the wage gap changes as women age?</h1>
+
+          <div class="column1">
           <button type="button" class="btn pinkbtn otherbut" data-slide="#mpenalty" id="getsBetter">It gets better</button>
           <button type="button" class="btn pinkbtn otherbut" data-slide="#mpenalty" id="getsWorse">It gets worse</button>
+
+</div>
+
 </section>
 
 <section id="mpenalty" class="all-secs pink">
   <h2> Answer: As women get older, the wage gap actually gets worse.</h2>
     <p> Even if ladies make the same amount as their male counterparts early in their careers, there's something called the <strong>motherhood penalty</strong> that can make things harder for them later in life. </p>
 
-    <p>University of Massachusetts sociologist Michelle Budig found that on average, <a href= "http://www.thirdway.org/report/the-fatherhood-bonus-and-the-motherhood-penalty-parenthood-and-the-gender-gap-in-pay"> men make 6% more when they had children, and women made 4% less for EACH child that they had.</a>
+    <p>University of Massachusetts sociologist Michelle Budig found that on average, <a href= "http://www.thirdway.org/report/the-fatherhood-bonus-and-the-motherhood-penalty-parenthood-and-the-gender-gap-in-pay" target="_blank"> men make 6% more when they had children, and women made 4% less for EACH child that they had.</a>
     </p>
   <button type="button" class="btn otherbut" data-slide="#mleave">Next question</button>
+
+
 </section>
 
 
@@ -111,26 +121,29 @@
       <h1>True or false – the United States is the only industrialized country that doesn’t have paid maternity or family leave.</h1>
           <button type="button" class="btn pinkbtn otherbut" data-slide="#mleaveanswer">True</button>
           <button type="button" class="btn pinkbtn otherbut" data-slide="#mleaveanswer">False</button>
+
+
   </section>
 
 
 
   <section id="mleaveanswer" class="all-secs pink">
         <h2> Answer: True</h2>
-            <p> There is no guaranteed family leave, unless your employer grants it or you live in California, Rhode Island or New Jersey, which offer state-mandated paid leave. According to the Bureau of Labor Statistics, <a href="http://www.politifact.com/truth-o-meter/statements/2016/jul/25/kirsten-gillibrand/yes-us-only-industrialized-nation-without-paid-fam/"> only 13 percent of employers offer paid maternity leave</a>. </p>
+            <p> The <a href="https://www.dol.gov/whd/fmla/" target="_blank"> Family and Medical Leave Act</a> created up to 12 weeks of <strong> unpaid</strong> family leave for things like caring for a sick family member or the birth of a baby. But many families can't afford to take unpaid leave. </p>
+            <p> There is no guaranteed paid family leave, unless your employer grants it or you live in California, Rhode Island or New Jersey, which offer state-mandated paid leave. According to the Bureau of Labor Statistics, <a href="http://www.politifact.com/truth-o-meter/statements/2016/jul/25/kirsten-gillibrand/yes-us-only-industrialized-nation-without-paid-fam/" target="_blank"> only 13 percent of employers offer paid maternity leave</a>. </p>
 
-            <p>This is a problem because caregiving typically falls on women. However, <a href="  http://www.theatlantic.com/business/archive/2016/03/no-paid-maternity-leave/470889/">40 percent of women are breadwinners for their families, and 70 percent of mothers work outside the home.</a> </p>
+            <p>This is a problem because caregiving typically falls on women. However, <a href="  http://www.theatlantic.com/business/archive/2016/03/no-paid-maternity-leave/470889/" target="_blank">40 percent of women are breadwinners for their families, and 70 percent of mothers work outside the home.</a> </p>
 
             <button type="button" class="btn otherbut" data-slide="#mwhy">Next question</button>
   </section>
 
 
-  <section id="mwhy" class="all-secs">
+  <section id="mwhy" class="all-secs pink">
     <h1> Ok, so why is the wage gap happening? </h1>
     <ul>
      <li>Some common reasons for the wage gap are occupational segregation, differences in the number of hours worked and educational attainment.</li>
-     <li>Experts also attribute <a href="http://www.pewsocialtrends.org/2013/12/11/on-pay-gap-millennial-women-near-parity-for-now/"> 20-40% of the wage gap to other reasons </a> that are much harder to quantify, including gender stereotypes, male-dominated career networks and the fact that women are less likely to negotiate for raises and promotions. </li>
-     <li> Finally, some of the gap can be explained by gender descrimination. Women are <a href="http://www.pewresearch.org/fact-tank/2015/04/14/on-equal-pay-day-everything-you-need-to-know-about-the-gender-pay-gap/"> twice as likely </a> to say that they felt descriminated in the workplace. </li>
+     <li>Experts also attribute <a href="http://www.pewsocialtrends.org/2013/12/11/on-pay-gap-millennial-women-near-parity-for-now/" target="_blank"> 20-40% of the wage gap to other reasons </a> that are much harder to quantify, including gender stereotypes, male-dominated career networks and the fact that women are less likely to negotiate for raises and promotions. </li>
+     <li> Finally, some of the gap can be explained by gender descrimination. Women are <a href="http://www.pewresearch.org/fact-tank/2015/04/14/on-equal-pay-day-everything-you-need-to-know-about-the-gender-pay-gap/" target="_blank"> twice as likely </a> to say that they felt descriminated in the workplace. </li>
     </ul>
 
     <button type="button" class="btn pinkbtn otherbut" data-slide="#mhelp">So now what?</button>
@@ -139,25 +152,25 @@
 
 
   <section id="mhelp" class="all-secs pink">
-    <h1>It is estimated that the Gender Gap will take <a  href="http://www.nbcnews.com/business/economy/gender-pay-gap-will-be-erased-it-will-take-118-n466631"> 118 years to close worldwide.</a> So what can you do to help?</h1>
+    <h1>It is estimated that the Gender Gap will take <a  href="http://www.nbcnews.com/business/economy/gender-pay-gap-will-be-erased-it-will-take-118-n466631" target="_blank"> 118 years to close worldwide.</a> So what can you do to help?</h1>
 
     <h2> Support resources that teach women how to negotiate.</h2>
       <ul>
-        <li>The <a href ="http://www.aauw.org/"> American Association of University Women  </a>hosts leadership conferences and negotiation seminars. To find a branch near you or to learn how you can donate, <a href="http://www.aauw.org/what-we-do/salary-negotiation-workshops/"> click here. </a> </li>
+        <li>The <a href ="http://www.aauw.org/"> American Association of University Women  </a>hosts leadership conferences and negotiation seminars. To find a branch near you or to learn how you can donate, <a href="http://www.aauw.org/what-we-do/salary-negotiation-workshops/" target="_blank"> click here. </a> </li>
       </ul>
 
       <h2> Tell Congress to pass the Paycheck Fairness Act. </h2>
         <ul>
           <li>This bill aims to strengthen the Equal Pay Act by empowering women to negotiate for equal pay, creating incentives for employers to follow the law, and increasing federal outreach. </li>
-          <li> You can find your elected official and send them an email in just a few minutes by <a href="http://salsa4.salsalabs.com/o/50796/p/dia/action3/common/public/?action_KEY=14710&killorg=True"> clicking here.</a> </li>
+          <li> You can find your elected official and send them an email in just a few minutes by <a href="http://salsa4.salsalabs.com/o/50796/p/dia/action3/common/public/?action_KEY=14710&killorg=True" target="_blank"> clicking here.</a> </li>
           </ul>
 
     <h2> Support campaigns for paid family leave </h2>
       <ul>
-        <li> Support campaigns for paid family leave	http://www.huffingtonpost.com/2015/04/14/things-we-need-to-do-to-close-wage-gap_n_7056322.html
-        -	http://www.theatlantic.com/business/archive/2016/03/equal-pay/472407/ </li>
+        <li> There are organizations lobbying for family leave in places like <a href="http://www.dcpaidfamilyleave.org/" target="_blank">Washington, D.C.</a>. However, if you don't live in that area, check out the <a href="http://www.nationalpartnership.org/" target="_blank">National Partnership for Women &amp; Families</a>.
+        </li>
       </ul>
-        <button type="button" class="btn lastbut" data-slide="#issuelist"> Learn about another issue </button>
+        <button type="button" class="infobut btn lastbut" data-slide="#issuelist"> Learn about another issue </button>
   </section>
 
 
@@ -166,24 +179,23 @@
   <section id="vtop" class="all-secs pink">
     <h1> Violence Against Women </h1>
 
-    <h2> Domestic abuse is defined by the <a href="https://www.justice.gov/ovw/domestic-violence"> U.S. Department of Justice</a>as
+    <h2> Domestic abuse is defined by the <a href="https://www.justice.gov/ovw/domestic-violence" target="_blank"> U.S. Department of Justice</a> as
     a pattern of abusive behavior in any relationship that is used by one partner to gain or maintain power and control over another intimate partner. Unfortunately, it's a huge problem in America.</h2>
 
-    <h2> Domestic abuse by the numbers </h2>
-    <h3> Source:
-   <a href= "https://ncadv.org/files/National%20Statistics%20Domestic%20Violence%20NCADV.pdf"> National Coalition Against Domestic Violence statistics sheet </a> </h3>
     <ul>
       <li> In the United States, a woman is beaten or assaulted <strong> every 9 seconds. </strong> </li>
       <li> <strong> One-third </strong> of female homicide victims are women killed by an intimate partner. </li>
       <li> There are <strong> more than 10 million </strong> domestic violence survivors each year. </li>
       <li> On a typical day, domestic violence hotlines nationwide receive approximately <strong> 20,800 calls.</strong></li>
+      <li> Source:
+     <a href= "https://ncadv.org/files/National%20Statistics%20Domestic%20Violence%20NCADV.pdf" target="_blank"> National Coalition Against Domestic Violence statistics sheet </a> </li>
     </ul>
 
     <button type="button" class="btn otherbut" data-slide="#vtypes"> What counts as domestic violence?</button>
   </section>
 
 
-  <section id="vtypes" class="all-secs pink">
+  <section id="vtypes" class="all-secs">
     <h1> Types of abuse </h1>
      <h2> Domestic abuse isn't just hitting a partner. It can manifest in several different ways, and each can be serious. Click on each category below to learn about the different forms of abuse. </h2>
 
@@ -267,9 +279,7 @@
         </ul>
       </div>
 
-      <p> Source: <a href = "http://www.thehotline.org/is-this-abuse/abuse-defined/#tab-id-5"> The National Domestic Hotline </a></p>
-
-      <p> If you are experiencing abuse, please call The National Domestic Abuse Hotline at <a href="tel:1-800-799-7233">1-800-799-7233</a></p>
+      <p> Source: <a href = "http://www.thehotline.org/is-this-abuse/abuse-defined/#tab-id-5" target="_blank"> The National Domestic Hotline</a>. If you are experiencing abuse, please call The National Domestic Abuse Hotline at <a href="tel:1-800-799-7233">1-800-799-7233</a></p>
 
     <button type="button" class="btn otherbut" data-slide="#vresources">Learn how to help domestic abuse survivors </button>
 </section>
@@ -278,14 +288,14 @@
 <h1> How to help women experiencing domestic abuse</h1>
 
   <h2> Reach out </h2>
-  <p> If you suspect that someone is in an abusive relationship, please intervene. Don't know how? www.loveisrespect.org published  <a href="http://www.loveisrespect.org/for-someone-else/"> several awesome guides </a> to help you reach out, whether you're concerned about a friend, parent or even a stranger. </p>
+  <p> If you suspect that someone is in an abusive relationship, please intervene. Don't know how? www.loveisrespect.org published  <a href="http://www.loveisrespect.org/for-someone-else/" target="_blank"> several awesome guides </a> to help you reach out, whether you're concerned about a friend, parent or even a stranger. </p>
 
   <h2> Pass along your old phone</h2>
-  <p>Having access to a cell phone can help domestic abuse survivors escape from abusive situations and rebuild their lives. Donate your old cell phone, charger or phone batteries to <a href="http://www.verizon.com/about/responsibility/domestic-violence-prevention"> HopeLine by Verizon</a>,a charity that refurbishes old phones and gives them to domestic abuse survivors.  </p>
+  <p>Having access to a cell phone can help domestic abuse survivors escape from abusive situations and rebuild their lives. Donate your old cell phone, charger or phone batteries to <a href="http://www.verizon.com/about/responsibility/domestic-violence-prevention" target="_blank"> HopeLine by Verizon</a>,a charity that refurbishes old phones and gives them to domestic abuse survivors.  </p>
 
   <h2> Donate other goods </h2>
   <p> Bring gift cards, hygiene items and clothes to women’s shelters. There's always a need for these kinds of items, and they go fast! </p>
-  <p> Don't have a ton of time or resources to give? <a href="https://smile.amazon.com/?ie=UTF8&ein=75-1658287&ref_=smi_ext_ch_75-1658287_cl&ref_=smi_ext_ch_75-1658287_dl"> Set the National Domestic Violence Hotline as your charity of choice for Amazon Smile. </a> With every purchase you make, Amazon will donate 0.5% to the organization.  </p>
+  <p> Don't have a ton of time or resources to give? <a href="https://smile.amazon.com/?ie=UTF8&ein=75-1658287&ref_=smi_ext_ch_75-1658287_cl&ref_=smi_ext_ch_75-1658287_dl" target="_blank"> Set the National Domestic Violence Hotline as your charity of choice for Amazon Smile. </a> With every purchase you make, Amazon will donate 0.5% to the organization.  </p>
 
    <button type="button" class="btn otherbut" data-slide="#vassault">What about other forms of violence against women?</button>
 </section>
@@ -294,11 +304,10 @@
 <section id="vassault" class="all-secs pink">
 
   <h1> Sexual assault is a huge issue in America. </h1>
-  <p> <a href="http://ncadv.org/learn-more/statistics"> 1 in 5 women are sexually assaulted during their college years</a>, according to the National Coalition Against Domestic Violence.<p>
-
-  <p> More often than not, the offender is someone that the  survivor knew </p>
+  <p> <a href="http://ncadv.org/learn-more/statistics" target="_blank"> 1 in 5 women are sexually assaulted during their college years</a>, according to the National Coalition Against Domestic Violence. More often than not, the offender is someone that the  survivor knew </p>
 
 <div id="container"></div>
+
 
 <script>
 $(function() {
@@ -350,33 +359,33 @@ $(function() {
 });
 </script>
 
-<button type="button" class="btn otherbut" data-slide="#vprotect"> What counts as domestic violence?</button>
+<button type="button" class="btn otherbut" data-slide="#vprotect"> How can I help? </button>
 </section>
 
 
 <section id="vprotect" class="all-secs pink">
   <h1> How can you fight against sexual assault? </h1>
   <h2> Look out for others </h2>
-    <p> Don't be a bystander. If you see another person who looks like they are at risk, step in to help them. There's even training courses that can teach you how to do this, like <a href="https://www.ihollaback.org/">Hollaback! Intervention Training.</a></p>
+    <p> Don't be a bystander. If you see another person who looks like they are at risk, step in to help them. There's even training courses that can teach you how to do this, like <a href="https://www.ihollaback.org/" target="_blank">Hollaback! Intervention Training.</a></p>
   <h2> Learn how to defend yourself </h2>
-    <p> Females can take RAD Training and learn self defense skills. To find a class near you, check out the <a href="http://www.rad-systems.com/program_locator_student.html"> program locator.</a></p>
+    <p> Females can take RAD Training and learn self defense skills. To find a class near you, check out the <a href="http://www.rad-systems.com/program_locator_student.html" target="_blank"> program locator.</a></p>
 
 
-<button type="button" class="btn lastbut" data-slide="#issuelist"> Learn about another issue </button>
+<button type="button" class="infobut btn lastbut" data-slide="#issuelist"> Learn about another issue </button>
 </section>
 
 
 <section id="rtop" class="all-secs pink">
 
-  <h1> Reproductive issues </h1>
+  <h1> Reproductive rights </h1>
 
-  <h2> According to a  <a href="http://www.pewresearch.org/data-trend/domestic-issues/abortion/">10-year survey by the Pew Research Center </a>,
-  56% percent of Americans think that abortion  should be legal in all or most cases. </h2>
-
+  <h2> According to a  <a href="http://www.pewresearch.org/data-trend/domestic-issues/abortion/" target="_blank">10-year survey by the Pew Research Center</a>,
+  56% percent of Americans think that abortion  should be legal in all or most cases.</h2>
   <h2> What do you think? </h2>
-  <button type="button" class="btn otherbut" data-slide="#rlegal">I think abortion should be legal</button>
+  <button type="button" class="btn otherbut" data-slide="#rlegal">Abortion should be legal</button>
 
-  <button type="button" class="btn otherbut" data-slide="#rillegal">I think abortion should be illegal</button>
+  <button type="button" class="btn otherbut" data-slide="#rillegal">Abortion should be illegal</button>
+
 
 </section>
 
@@ -386,7 +395,7 @@ $(function() {
   <h1>  Why does it matter if abortions are legal? </h1>
   <p> The rate of abortions is similar in countries where abortion is legal and illegal – meaning that if safe abortions aren’t available, women will get them anyway. </p>
 
-  <p> According to a <a href="http://www.nytimes.com/2007/10/12/world/12abortion.html"> global study by the World Health Organization</a>, about 20 million abortions that would be considered unsafe were performed anyway. 67,000 women die as a result of complications from this procedure. </p>
+  <p> According to a <a href="http://www.nytimes.com/2007/10/12/world/12abortion.html" target="_blank"> global study by the World Health Organization</a>, about 20 million abortions that would be considered unsafe were performed anyway. 67,000 women die as a result of complications from this procedure. </p>
 
     <button type="button" class="btn otherbut" data-slide="#rhelp">What can I do to help?</button>
 </section>
@@ -395,15 +404,15 @@ $(function() {
 <section id="rhelp" class="all-secs pink">
   <h1>Get involved </h1>
   <h2> Become a clinic escort. </h2>
-    <p>Protesters often gather outside of abortion clinics to chant and scream at women who are going inside. Clinic escorts guide patients inside the building and shield them from harassment.  To learn more about becoming a clinic escort, <a href="http://nymag.com/thecut/2016/11/how-to-become-an-abortion-clinic-escort.html"> check out this guide from NY Magazine.</a>
+    <p>Protesters often gather outside of abortion clinics to chant and scream at women who are going inside. Clinic escorts guide patients inside the building and shield them from harassment.  To learn more about becoming a clinic escort, <a href="http://nymag.com/thecut/2016/11/how-to-become-an-abortion-clinic-escort.html" target="_blank"> check out this guide from NY Magazine.</a> </p>
 
 <h2> Stand with Planned Parenthood.</h2>
-    <p>Volunteer with Planned Parenthood to bring education and health services to women. <a href= "https://plannedparenthoodrccorpvolunteer.peoplefluent.com/joblist.html?erpc=alljobs">Click here to find opportunities in your state.</a>
+    <p>Volunteer with Planned Parenthood to bring education and health services to women. <a href= "https://plannedparenthoodrccorpvolunteer.peoplefluent.com/joblist.html?erpc=alljobs" target="_blank">Click here to find opportunities in your state.</a></p>
 
-    <p>College students can join Planned Parenthood Generation Action. This program raises awareness about reproductive rights and sexual health. To see what your campus offers, go <a href="https://www.plannedparenthoodaction.org/community/planned-parenthood-generation-action/find-your-planned-parenthood-generation-action-group"> here.</a> To start your own chapter, <a href="https://www.plannedparenthoodaction.org/community/planned-parenthood-generation-action/contact-planned-parenthood-generation-action/"> contact Planned Parenthood.</a>
+    <p>College students can join Planned Parenthood Generation Action. This program raises awareness about reproductive rights and sexual health. To see what your campus offers, go <a href="https://www.plannedparenthoodaction.org/community/planned-parenthood-generation-action/find-your-planned-parenthood-generation-action-group" target="_blank"> here.</a> To start your own chapter, <a href="https://www.plannedparenthoodaction.org/community/planned-parenthood-generation-action/contact-planned-parenthood-generation-action/" target="_blank"> contact Planned Parenthood.</a></p>
 
 <h2> Contact your elected officials </h2>
-   <p> All Above All is an organization that seeks to overturn the Hyde Amendment and other abortion restrictions.  The group encourages people to email congresspeople and ask them to lift government restrictions on abortion access. <a href="http://action.allaboveall.org/page/speakout/lift-the-bans">Find your elected official, learn about the issues, and send an email here. </a>
+   <p> All Above All is an organization that seeks to overturn the Hyde Amendment and other abortion restrictions.  The group encourages people to email congresspeople and ask them to lift government restrictions on abortion access. <a href="http://action.allaboveall.org/page/speakout/lift-the-bans" target="_blank">Find your elected official, learn about the issues, and send an email here. </a> </p>
 
   <button type="button" class="btn otherbut" data-slide="#rreduce">What else can I do?</button>
 </section>
@@ -411,8 +420,8 @@ $(function() {
 <section id="rillegal" class="all-secs pink">
   <h1>  What happens if abortion is illegal?</h1>
   <h2>The bad news </h2>
-    <p>the rate of abortions is similar in countries where abortion is legal and illegal – meaning that if safe abortions aren’t available, women will get them anyway. </p>
-    <p> According to a <a href="http://www.nytimes.com/2007/10/12/world/12abortion.html"> global study by the World Health Organization</a>, about 20 million abortions that would be considered unsafe were performed anyway. 67,000 women die as a result of complications from this procedure. </p>
+    <p>The rate of abortions is similar in countries where abortion is legal and illegal – meaning that if safe abortions aren’t available, women will get them anyway. </p>
+    <p> According to a <a href="http://www.nytimes.com/2007/10/12/world/12abortion.html" target="_blank"> global study by the World Health Organization</a>, about 20 million abortions that would be considered unsafe were performed anyway. 67,000 women die as a result of complications from this procedure. </p>
 
   <h2> The good news </h2>
     <p> <em>There's a way to reduce the number of abortions without making it illegal and forcing women to get risky clandestine procedures.</em> </p>
@@ -423,35 +432,70 @@ $(function() {
 
 <section id="rreduce" class="all-secs pink">
 
-<h1> Here's how you can help:</h1>
-  <h2> 1. Support contraceptive access and family planning centers </h2>
+<h1> Here's how you can help</h1>
+  <h2> Support contraceptive access and family planning centers </h2>
 
   <p> Publicly-funded family planning services are crucial  in providing resources for women -- both the ladies that want families and those who don't.
-  According to the Guttmacher Institute, these facilities <a href="https://www.guttmacher.org/fact-sheet/publicly-funded-family-planning-services-united-states"> helped women avoid two million unintended pregnancies.</a> The Institute estimates that those pregnancies would have resulted in 900,000 unplanned births and nearly 700,000 abortions.</p>
+  According to the Guttmacher Institute, these facilities <a href="https://www.guttmacher.org/fact-sheet/publicly-funded-family-planning-services-united-states" target="_blank"> helped women avoid two million unintended pregnancies.</a> The Institute estimates that those pregnancies would have resulted in 900,000 unplanned births and nearly 700,000 abortions.</p>
 
   <p>Title X is the US Government's program that funds confidential, low-cost family planning services </p>
-  <p> According to the Center for Reproductive Rights, <a href="https://www.reproductiverights.org/project/contraceptive-access-in-the-united-states"> funding for the U.S. Government's Title X is decreasing.</a> It's 61% lower today than it was in 1980.</p>
+  <p> According to the Center for Reproductive Rights, <a href="https://www.reproductiverights.org/project/contraceptive-access-in-the-united-states" target="_blank"> funding for the U.S. Government's Title X is decreasing.</a> It's 61% lower today than it was in 1980.</p>
   <p> To help, you can support family planning services. <p>
-  <p> You can also reach out to your elected officials and let them know that defunding family planning centers is harmful to the women that depend on them. Locate your representatives <a href="http://act.commoncause.org/site/PageServer?pagename=sunlight_advocacy_list_page"> here.</a>
+  <p> You can also reach out to your elected officials and let them know that defunding family planning centers is harmful to the women that depend on them. Locate your representatives <a href="http://act.commoncause.org/site/PageServer?pagename=sunlight_advocacy_list_page" target="_blank"> here.</a></p>
 
 
-<h2> 2. Support comprehensive, fact-based sex education </h2>
 
-  <p> More than 47 percent of high school students say they've had sex, <a href="http://www.ncsl.org/research/health/state-policies-on-sex-education-in-schools.aspx">according to a 2011 study by the Center for Disease Control and Prevention. </a> And only 60% of the students surveyed said they used a condom during their last sexual encounter!</p>
+  <button type="button" class="btn otherbut" data-slide="#reducation">What else can I do?</button>
+    </section>
 
-  <p> Here's the insane part -- <a href="https://www.guttmacher.org/state-policy/explore/sex-and-hiv-education"> only 22 states mandate sex and HIV education, and only 13 require that sex ed is medically  accurate.</a> </p>
+    <section id="reducation" class="all-secs pink">
+<h1> You can also support comprehensive, fact-based sex education </h1>
+<h2> How does this help? </h2>
+  <p> More than 47 percent of high school students say they've had sex, <a href="http://www.ncsl.org/research/health/state-policies-on-sex-education-in-schools.aspx" target="_blank">according to a 2011 study by the Center for Disease Control and Prevention. </a> And only 60% of the students surveyed said they used a condom during their last sexual encounter!</p>
 
-  <p> Studies show that <a href="http://www.unfpa.org/comprehensive-sexuality-education"> abstinence-only education is not effective,</a> according to the United Nations Population Fund. </p>
+  <p> Here's the insane part -- <a href="https://www.guttmacher.org/state-policy/explore/sex-and-hiv-education" target="_blank"> only 22 states mandate sex and HIV education, and only 13 require that sex ed is medically  accurate.</a> </p>
+
+  <p> Studies show that <a href="http://www.unfpa.org/comprehensive-sexuality-education" target="_blank"> abstinence-only education is not effective,</a> according to the United Nations Population Fund. </p>
 
   <p> The solution: we need to make sexual and reproductive health more accessible to adolescents.<p>
 
 
-<button type="button" class="btn lastbut" data-slide="#issuelist"> Learn about another issue </button>
+<button type="button" class="infobut btn lastbut" data-slide="#issuelist"> Learn about another issue </button>
 </section>
 
 
 
+
+<section id="aboutproj" class="all-secs">
+  <h1>About this website</h1>
+  <p> The American Woman was created to document some of the issues that frustrate many women in our country today. We enjoy so many more freedoms than women did in the past, not to mention women today that are oppressed in other parts of the world, but there are still so many areas for improvement. Not only does the site aim to educate people about the issues women still face today -- I hope it motivates you to take action! </p>
+
+
+<!--   <button type="button" class="btn lastbut" data-slide="#issuelist">Home</button>
+</section>
+
+<section id="photocred" class="all-secs pink"> -->
+  <h1> Photo credit </h1>
+  <p> Every photograph on this site is under the Creative Commons license. Here is where you can find the photographer/organization that each photo came from. </p>
+    <ul>
+        <li> Suffragists parade down Fifth Avenue. Creative Commons photo from the The New York Times photo archive. <br> Used with permission from <a href="https://commons.wikimedia.org/wiki/File:Suffragists_Parade_Down_Fifth_Avenue,_1917.JPG" target="_blank"> Wikemedia Commons.</a></li>
+        <li>The four women who have served on the Court (from left to right: O'Connor and Justices Sonia Sotomayor, Ruth Bader Ginsburg, and Elena Kagan), prior to Justice Kagan's Investiture Ceremony. Creative Commons photo by Steve Petteway, photographer for the Supreme Court of the United States. <br> Used with permission from <a href="http://bit.ly/2hm1FRk" target="_blank"> Wikemedia Commons.</a> </li>
+        <li> Sally Ride Becomes First American Woman in Space -- June 18, 1983. Creative Commons photo used with permission from <a href="https://www.flickr.com/photos/nasamarshall/27607595222" target="_blank"> NASA</a>.</li>
+
+          <li> Woman works at her desk. Creative Commons photo by Bench Accounting. Used with permission from <a href="https://stocksnap.io/photo/C332PCV8D0"> StockSnap.io</a></li>
+          <li> Woman works on her laptop at a cafe. Creative Commons photo by Tim Gouw. Used with permission from <a href="https://stocksnap.io/photo/286QGA5HBN"> StockSnap.io</a></li>
+          <li> Creative Commons photo by Janko Ferlic.Used with permission from <a href="https://stocksnap.io/photo/GMS9338LK0" target="_blank"> StockSnap.io</a></li>
+
+        <li> Woman leaning against tree. Creative Commons photo by Freestocks.org. Used with permission from <a href="https://stocksnap.io/photo/BG7CZQ5JRN" target="_blank"> StockSnap.io</a></li>
+      </ul>
+
+      <button type="button" class="btn lastbut" data-slide="#issuelist">Home</button>
+</section>
+
+
     <!--scripts-->
+    <script src="js/highcharts.js"></script>
+    <script type="text/javascript" src="js/themes/dark-unica.js"></script>
     <script src="https://use.fontawesome.com/d40c0404ed.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/women.js"></script>

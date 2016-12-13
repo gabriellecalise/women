@@ -74,6 +74,9 @@ $('#digital').on('click', function() {
 $('#digitalsigns').slideToggle('fast');
 });
 
+
+
+
 /*Domestic violence abuse type slidetoggle
    $('#physicalsigns').hide();
    $('#physical').click(function() {

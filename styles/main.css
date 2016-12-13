@@ -1,5 +1,7 @@
 
 * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -10,12 +12,43 @@ body {
   padding-bottom: 20px;
 }
 
+.all-secs {
+  padding: 10px 30px;
+}
+
+
+#paradecaption {
+  position: absolute;
+  bottom: -50px;
+  right: 20px;
+  font-size: 50%;
+  color: #000;
+}
+
+
+#justicescaption {
+  position: absolute;
+  bottom: -50px;
+  right: 20px;
+  font-size: 50%;
+  color: #000;
+}
+
 
 .caption {
   position: absolute;
   bottom: 10px;
   right: 20px;
   font-size: 50%;
+}
+
+.captionwhite {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  font-size: 50%;
+  background-color: #dadada;
+  padding: 5px;
 }
 
 h1 {
@@ -33,10 +66,12 @@ section {
 
 
 #container{
-  min-width: 310px;
+  min-width: 500px;
   height: 400px;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 0;
+  padding: 20px;
+
 }
 
 
@@ -76,6 +111,8 @@ section {
 #sofar {
   background-image: url("../images/ladies.jpg");
   background-size:100%;
+  background-position: center;
+
 }
 #sofar > h1 {
  background: #efc8d1;
@@ -83,6 +120,73 @@ section {
  width:20%
 }
 
+
+#mage > h1 {
+  background: #f0c8d0;
+  padding:20px;
+  width:60%
+}
+
+#mage {
+  background-image: url("../images/cafe.jpg");
+  background-size:100%;
+  background-position: center;
+
+}
+
+
+#mleave > h1 {
+  background: #f0c8d0;
+  padding:20px;
+  width:90%
+}
+
+#mleave {
+  background-image: url("../images/babyfeet.jpg");
+  background-size:100%;
+  background-position: center;
+}
+
+
+
+
+/*#mwhy {
+  background-image: url("../images/boardroom.jpg");
+  background-size:100%;
+  background-position: center;
+}
+*/
+
+/*.column1 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  width: 40%;
+  padding: 20px;
+}
+
+.column2 {
+  float: right;
+clear: both;
+margin: 30px;
+padding: 50px;
+}
+*/
+/*#agecontainer {
+  width: 40%;
+  padding: 20px;
+}*/
+
+/*#mage > img {
+  float: right;
+  padding: 50px;
+  margin: auto;
+}
+
+#mage > button {
+  clear: right;
+}*/
 
 #vote {
   background-image: url('../images/parade.jpg');
@@ -123,6 +227,33 @@ section {
   background-size:100%;
 }
 
+#mtop > h1 {
+background: #f0c8d0;
+padding:20px;
+width:40%
+}
+
+#rtop {
+  background-image: url('../images/tree.jpg');
+  background-size:100%;
+  background-color: #000;
+}
+
+#rtop > h1 {
+ background: #ecd4d7;
+ padding:10px;
+ width:40%;
+}
+
+#rtop > h2 {
+ background: #ecd4d7;
+ padding:10px;
+ width:40%;
+}
+
+
+
+
 /*#supremeCourt {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a1/O%27Connor%2C_Sotomayor%2C_Ginsburg%2C_and_Kagan.jpg');
   background-size:100%;
@@ -140,7 +271,7 @@ img{
 .issue {
   display: inline-block;
   text-decoration:none;
-  font-family: Helvetiva, sans-serif;
+  font-family: Helvetica, sans-serif;
   padding:5px 20px;
   background-color: #fff;
   font-size: 120%;
@@ -150,12 +281,35 @@ img{
 .btn {
   display: inline-block;
   text-decoration:none;
-  font-family: Helvetiva, Verdana sans-serif;
+  font-family: Helvetica, Verdana, sans-serif;
   padding:5px 20px;
+  margin: 5px;
   background-color: #fff;
   font-size: 120%;
   cursor: pointer;
 }
+
+.infobut {
+  display: inline-block;
+  text-decoration:none;
+  font-family: Helvetica, Verdana, sans-serif;
+  padding:5px 20px;
+  background-color: #000;
+  color: #fff;
+  font-size: 120%;
+  cursor: pointer;
+}
+
+ #aboutproj {
+ background: #ffefef;
+}
+/*
+#aboutbut {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+*/
 
 /*.pinkbtn {
   background-color: #ffefef;
@@ -179,24 +333,27 @@ img{
  }
 
 #digitalsigns{
-    background-color: #fbdeff;
+    background-color: #ffd2eb;
+
 }
 
 #financialsigns {
-  background-color: #af90bc;
+  background-color: #D7AEC4;
+
 }
 
 #emotionalsigns{
-    background-color: #df65b0;
+    background-color: #A47B91;
 }
 
 #sexualsigns{
-    background-color: #b63d72;
+    background-color: #71485E;
     color: #fff;
+
 }
 
 #physicalsigns {
-    background-color: #980043;
+    background-color: #3E152B;
     color: #fff;
 }
 
@@ -207,7 +364,27 @@ img{
           color: #000;}
   #space  {background-image: none;}
   #space > h1 {background: none;}
-  #mtop {background-image: none;}
+  #mtop {background-image: none;
+  background-color: #ffefef; }
+    #mtop > h1 {background: none;}
+
+#mgap {background-color: #fff;}
+  #mage {background-image: none;
+    background-color: #ffefef;}
+  #mage > h1 {background: none;}
+
+  #mleave {background-image: none;
+  background-color: #ffefef;}
+
+  #mleaveanswer {background-color: #fff;}
+
+  #mpenalty {background-color: #fff;}
+
+  #mleave > h1 {background: none;
+    font-size: 200%;}
+
+  #mhelp {background-color: #fff;}
+
   #vote {background-image: none;
         background-color: #ffefef;
         color:#000;}
@@ -215,7 +392,42 @@ img{
   #sofar {background-image: none;}
   #sofar > h1 {background: none;}
 
-  #black > h1 {font-size: 250%;}
-  #black > h2 {font-size: 150%;}
+#vtop {background-color: #fff;}
 
+/*#vtypes > h1 {background: #ffefef;
+              width: 65%;
+              padding: 6px;}*/
+
+#vresources {background: #fff;}
+
+#vassault {background: #fff;}
+#container {margin: 0;
+            width: 300px;
+            padding: 5px;
+        height: 450px;
+        min-width: 200px;
+      max-width:300px;}
+
+#vprotect {background: #fff;}
+
+#rtop {background-image: none;
+  background-color:#ffefef;}
+
+#rtop > h1 {background: none;
+width: 100%;
+font-size: 250%;}
+#rtop > h2 {background: none;
+width: 100%;}
+#rhelp {background-color:#fff;}
+
+#rillegal {background-color:#fff;}
+#rreduce {background-color:#fff;}
+#reducation {background-color:#fff;}
+
+#black {background-color: #000;
+      color: #fff;}
+  #black > h1 {font-size: 350%;}
+  #black > h2 {font-size: 220%;}
+  #black > p {font-size: 110%;}
+#aboutproj {background-color: #fff;}
     }

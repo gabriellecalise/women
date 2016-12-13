@@ -277,3 +277,10 @@ This week I learned how to use "data" class with J Query so that my buttons prop
 I added my Highcharts pie chart to the violence slide but I can't get it to show up.
 
 The @media query was way more challenging than I thought. It is very difficult to make the background images in the introduction responsive and I'm not sure how to fix it. In the end, I decided to remove the background images completely. The site looks plain, but I would rather have a plain site than one that looks hideous.
+
+
+Final thoughts
+
+This project was so much more work than I thought it would be. Things behaved strangely, the sections and divs were tricky, and configuring the whole thing for mobile devices was an absolute nightmare. But I did it! It's done. I'm happy with it.
+
+I could NOT figure out how to get captions to display underneath each photo in a way that looked good. They either loaded way faster or slower than the image, or they did not appear in the right location. Absolute positioning worked very well on pictures inside of each of the three issues, but the positioning was so tricky on the intro portion of the site where there were a series of sections that each had background images stretched to 100%. The captions would show up in random places and I could not make them appear neatly where I wanted them to go. I thought about manually adding each caption to the photo itself in Photoshop, but that's just asking for trouble since the photos are going to stretch to fit different screens and I didn't want to risk the words getting cut off. After much deliberation, my solution was just to link to a page where people could learn about the project and read about the photos that were used. It was not ideal, but at least this way I could know for certain that the photo credits would show up. 
