@@ -104,6 +104,7 @@ section {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+
 .pink {
   background-color: #ffefef;
 }
@@ -131,7 +132,6 @@ section {
   background-image: url("../images/cafe.jpg");
   background-size:100%;
   background-position: center;
-
 }
 
 
@@ -430,4 +430,40 @@ width: 100%;}
   #black > h2 {font-size: 220%;}
   #black > p {font-size: 110%;}
 #aboutproj {background-color: #fff;}
+    }
+
+    @media only screen /* ipad */
+      and (max-device-width: 1024px)
+      and (-webkit-min-device-pixel-ratio: 1) {
+
+        .introslide {  background-repeat: repeat-x;
+                  }
+        #sofar > h1 { padding: 20px;
+                    width: 40%;}
+        #sofar {background-image: none;
+            background-color: #000;}
+
+
+        #space > h1 {
+         width:30%
+        }
+
+        #mtop {background-image: none;
+        background-color: #ffefef; }
+          #mtop > h1 {background: none;}
+
+      #mgap {background-color: #fff;}
+        #mage {background-image: none;
+          background-color: #ffefef;}
+        #mage > h1 {background: none;}
+
+        #mleave {background-image: none;
+        background-color: #ffefef;}
+        #mleave > h1 {background: none;}
+
+
+        #mleaveanswer {background-color: #fff;}
+
+        #mpenalty {background-color: #fff;}
+
     }
