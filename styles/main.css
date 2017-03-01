@@ -432,9 +432,9 @@ width: 100%;}
 #aboutproj {background-color: #fff;}
     }
 
-    @media only screen /* ipad */
-      and (max-device-width: 1024px)
-      and (-webkit-min-device-pixel-ratio: 1) {
+    @media /* ipad */
+     (max-device-width: 1024px)
+ {
 
         .introslide {  background-repeat: repeat-x;
                   }
@@ -444,9 +444,9 @@ width: 100%;}
             background-color: #000;}
 
 
-        #space > h1 {
-         width:30%
-        }
+            #space {  background-color: #fff;}
+
+        #space > h1 { width:30%;}
 
         #mtop {background-image: none;
         background-color: #ffefef; }
